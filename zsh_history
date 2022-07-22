@@ -1,0 +1,6202 @@
+jctl
+cd Projects/edr_app
+la
+cd app
+la
+cd src
+la
+cd main
+la
+cd java
+la
+cd com
+la
+cd example
+la
+cd storage
+la
+v Measurement.java
+git add .
+git commit -m "multithreading hellscape"
+git push origin main
+groups
+git add .
+git commit -m "multithreading hellscape"
+git push origin main
+top
+sudo pacman -S reflector
+dots add .zshenv
+dots add -u
+dots commit -m "desktop stuff"
+dots push origin main
+cat /etc/pacman.conf
+sudo pacman -S lib32-amdvlk
+sudo pacman -S lib32-vulkan-radeon
+r
+sudo pacman -S lib32-vulkan-radeon
+r
+sudo pacman -S lib32-vulkan-radeon
+R
+cd Documents
+cat aurlist.txt
+cd /boot/loader/entries
+la
+v 2021-12-12_11-40-29_linux.conf
+cd /boot/loader/entries
+v 2021-12-12_11-40-29_linux.conf
+v .local/share/applications/rstudio.desktop
+cd .config
+v code-flags.conf
+git add .
+git commit -m "export toast"
+git push origin main
+cd .config/nvim
+la
+cd source
+la
+cat binds.vim
+cd .config
+la
+echo $XDG_SESSION_TYPE
+la
+systemctl status pipewire-media-session
+cd .config
+la
+v pipewire/pipewire.conf
+systemctl status wireplumber
+systemctl --user --now disable pipewire-media-session
+systemctl --user --now enable wireplumber
+systemctl restart pipewire
+systemctl status pulseaudio
+systemctl list-unit-files
+reboot
+jctl
+systemctl restart pipewire
+update
+sudo pacman -S lib32-pipewire
+systemctl status wireplumber
+sudo systemctl list-units --failed
+sudo systemctl list-units
+sudo systemctl list-units | grep pipewire
+systemctl start wireplumber
+sudo pacman -S wireplumber
+systemctl start wireplumber
+systemctl start pipewire
+sudo systemctl start pipewire
+pw-cli dump
+sudo pacman -S pipewire
+systemctl --user status pipewire
+systemctl --user status wireplumber
+systemctl --user start pipewire
+jctl
+systemctl --user status pipewire
+jctl
+v pipewire/pipewire.conf
+cd .config/pipewire
+v pipewire.conf
+systemctl --user restart pipewire wireplumber
+pipewire -c filter-chain/sink-eq6.conf
+cd .config/pipewire
+v pipewire.conf
+pipewire -c $HOME/.config/pipewire/pipewire.conf
+systemctl --user stop wireplumber pipewire
+pipewire -c $HOME/.config/pipewire/pipewire.conf
+systemctl status pipewire
+systemctl --user status pipewire
+pw-cli dump
+cd .config/pipewire
+v pipewire.conf
+update
+cd .config/kitty
+v kitty.conf
+update
+reboot
+cd .config
+la
+mv code-flags.conf code-flags.conf.bak
+sensors
+top
+cd Projects/edr_app
+git pull origin main
+git add .
+git commit -m "nothing"
+git push origin main
+npm run dev
+git add .
+git commit -m "import cleanup"
+git push origin main
+cd Downloads
+git clone git@github.com:anjrv/skalholt.git
+cd skalholt
+la
+cd backend
+npm run setup
+code .
+la
+cp .env.example .env
+v .env
+npm install
+npm audit fix
+createdb skalholt
+npm run setup
+npm run dev
+cd Downloads
+la
+cd skalholt
+la
+cd frontend
+npm install
+v .env
+npm run dev
+sudo pacman -S nodejs-lts-gallium
+npm install
+code .
+cd ..
+la
+cd $HOME/Projects
+cd skalholt
+la
+cd frontend
+la
+cd src
+la
+cd ..
+la
+npm start
+npm install
+v package-lock.json
+v package.json
+v package-lock.json
+npm install -g npm@7.6.3
+sudo npm install -g npm@7.6.3
+npm install
+npm install -g node-gyp --unsafe-perm
+sudo npm install -g node-gyp --unsafe-perm
+t "installVersion" 9\
+npm ERR! gyp \
+npm ERR! gyp verb install version is good
+npm install
+rm package-lock.json
+npm install
+la
+npm install --legacy-peer-deps
+la
+npm -v
+update
+sudo npm install -g npm
+npm -v
+npm install
+v package.json
+sudo npm install -g npm-check-updates
+npm-check-updates
+ncu -u
+npm install
+v package.json
+npm install
+code .
+cd Projects/skalholt/frontend
+npm run dev
+cd ..
+cd backend
+npm run dev
+cd ..
+cd $HOME/Downloads
+la
+cd skalholt
+la
+cd backend
+la
+npm run dev
+npm start
+sudo pacman -S nodejs
+reboot
+cd .config
+mv code-flags.conf.bak code-flags.conf
+cd Downloads
+la
+cd skalholt
+la
+cd frontend
+la
+npm install
+cd Downloads
+la
+cd skalholt
+la
+cd frontend
+la
+v package-lock.json
+la
+cd src
+la
+..
+la
+rm package-lock.json
+la
+locate node_modules
+locate node_modules | grep skalholt
+cd ..
+la
+ls
+la
+locate node_modules | grep skalholt/fr
+npm install
+la
+npm install --legacy-peer-deps
+sudo npm install -g node-gyp --unsafe-perm
+npm install --legacy-peer-deps
+la
+v package.json
+sudo pacman -S nodejs-lts-fermium
+npm install --legacy-peer-deps
+cd Downloads/skalholt/backend
+la
+v .env
+pwd
+la
+npm run dev
+npm run start
+node -v
+cd Projects/skalholt/backend
+npm install
+v .env
+npm start
+v .env
+npm start
+v .env
+sudo pacman -S nodejs
+echo $XDG_SESSION_TYPE
+update
+yay -S firefox-appmenu
+pip install --upgrade pip
+yay -S irefox-kde-opensuse
+yay -S firefox-kde-opensuse
+sudo pacman -S icu
+yay -S firefox-kde-opensuse
+yay -S firefox-kde-opensuse-rpm
+sudo pacman -S thunderbird-appmenu-bin
+yay -S thunderbird-appmenu-bin
+update
+sudo pacman -S tmux
+v .tmux.conf
+tmux
+v .tmux.conf
+tmux
+v .tmux.conf
+tmux
+v .tmux.conf
+nvm-init
+nvm install --lts
+nvm --help
+nvm install node
+nvm alias default node
+nvm install lts/fermium
+v .zshrc
+groups
+conda init
+pacman -Sy libxau libxi libxss libxtst libxcursor libxcomposite libxdamage libxfixes libxrandr libxrender mesa-libgl  alsa-lib libglvnd
+cd Downloads
+la
+rm VisualStudioSetup.exe
+rm TÃƒ¶V603M_Chapter_4.pdf
+rm -rf skalholt
+la
+chmod +x Anaconda3-2022.05-Linux-x86_64.sh
+./Anaconda3-2022.05-Linux-x86_64.sh
+cat .zshenv
+conda config --set auto_activate_base False
+cd .zshrc
+la .zshrc
+la
+v .zshrc
+v .zshenv
+update
+tmux
+v .tmux.conf
+tmux
+update
+jctl
+v .zshrc
+rm .condarc
+rm -rf .conda
+cd .local/share
+la
+rm -rf anaconda3
+killall jetbrains-toolbox
+jctl
+locate jetbrains-toolbox
+update
+reboot
+cd Projects/
+git clone git@github.com:anjrv/edr_backend.git
+sudo pacman -S mongodb
+sudo pacman -S mongo
+sudo updatedb
+sudo pacman -S parsec
+yay -S parsec
+git add .
+git commit -m "data semaphore"
+git push origin main
+jctl
+top
+update
+cd Downloads
+la
+rm Anaconda3-2022.05-Linux-x86_64.sh
+chmod +x Miniconda3-latest-Linux-x86_64.sh
+rm OneDrive_2022-05-22.zip
+la
+./Miniconda3-latest-Linux-x86_64.sh
+ls .local/share
+conda config --set auto_activate_base False
+time zsh .zshrc
+v .zshrc
+time zsh .zshrc
+rm .condarc
+rm .conda
+la
+rm -rf .conda
+cd .local/share
+rm -rf miniconda3
+cd ..
+..
+v .zshrc
+la
+cd Downloads
+chmod +x Anaconda3-2022.05-Linux-x86_64.sh
+./Anaconda3-2022.05-Linux-x86_64.sh
+v .zshrc
+cd $HOME
+la
+v .zshrc
+v .anaconda
+v .zshrc
+conda-init
+la
+time zsh .zshrc
+la
+v .zshrc
+la
+mv .anaconda /home/anjrv/.local/share/anaconda3/conda-setup
+cd /home/anjrv/.local/share
+la
+cd anaconda3
+la
+v .zshrc
+conda-init
+update
+jctl
+git add .
+git commit -m "Active filtering, request perms, sliding variable store"
+git push origin main
+git add .
+git commit -m "Active filtering, request perms, sliding variable store"
+git push origin main
+git add .
+git commit -m "Some comments"
+git push origin main
+git add .
+git commit -m "Stop moving globals android studio..."
+git push origin main
+git add .
+git commit -m "Json convert messages"
+git push origin main
+git add .
+git commit -m "Json convert messages"
+git push origin main
+git add .
+git commit -m "cleanup and refactor"
+git push origin main
+git add .
+git commit -m "disable landscape destroy call"
+git push origin main
+update
+sudo pacman -S kmail
+tldr yt-dl
+ytd --help
+ytd --help | grep audio
+cd Downloads
+ytd 'https://www.youtube.com/watch?v=zaZy1oIUbxI' -x
+sudo pacman -S audacity
+la
+cd Downloads
+ytd 'https://www.youtube.com/watch?v=zDB3urVEEJM' -x
+cd Downloads
+la
+rm Miniconda3-latest-Linux-x86_64.sh
+rm Anaconda3-2022.05-Linux-x86_64.sh
+rm Korra
+rm korra_thingy.mp3
+rm Korra\ Does\ It\ Like\ A\ Dude-zDB3urVEEJM.opus
+rm Stamp\ on\ the\ Ground\ AMV-zaZy1oIUbxI.m4a
+rm thingy.mp3
+la
+update
+git pull origin main
+sudo pacman -S mosqitto
+sudo pacman -S mosquitto
+cd Projects/
+la
+mkdir edr_subscriber
+cd edr_subscriber
+npm init
+la
+cd Projects/
+cd edr_subscriber
+v package.json
+npm install -D nodemon
+v package.json
+npm install -D nodemon
+rm package.json
+la
+npm init
+npm install -D nodemon
+npm install bcrypt
+npm install -D eslint eslint-config-airbnb-base eslint-plugin-import
+npm install winston
+v package.json
+mkdir src
+la
+cd src
+la
+v package.json
+la
+touch app.js
+la
+v app.js
+cd ..
+npm run start
+npm install mqtt --save
+npm install
+npm run dev
+npm install dotenv --save
+npm run dev
+mosquitto_pub -d -h localhost -p 1883 -t "whatever" -m "msg"
+mosquitto
+mosquitto_pub -d -h localhost -p 1883 -t "whatever" -m "msg"
+npm run dev
+mosquitto_pub -d -h localhost -p 1883 -t "whatever" -m "msg"
+mosquitto_sub -h localhost -p 1883 -t "whatever" -v -d
+mosquitto_pub -d -h localhost -p 1883 -t "whatever" -m "msg"
+npm run dev
+mosquitto_pub -d -h localhost -p 1883 -t "whatever" -m "msg"
+npm run dev
+mosquitto_pub -d -h localhost -p 1883 -t "whatever" -m "msg"
+npm run dev
+mosquitto_pub -d -h localhost -p 1883 -t "EDR" -m "msg"
+git init
+git add .
+git status
+git remote add origin git@github.com:anjrv/edr_subscriber.git
+git branch -M main
+git commit -m "first commit"
+git push -u origin main
+npm run dev
+cd Projects
+la
+v mosqitto.conf
+mosquitto -v -c mosqitto.conf
+mosquitto_pub -d -h localhost -p 1883 -t "EDR" -m "msg"
+ifconfig
+ssh-pi-local
+cd Projects
+v mosqitto.conf
+ssh-pi-local
+npm run dev
+git add .
+git commit -m "mqtt publish"
+git push origin main
+git add .
+git commit -m "mqtt pi connection"
+git push origin main
+git clone git@github.com:anjrv/edr_subscriber.git
+git clone git@github.com:anjrv/edr_app.git
+update
+sudo pacman -S cpu-x
+sudo pacman -S hwinfo
+cd Projects/edr_subscriber
+la
+v .
+sudo pacman -S helvum
+sudo pacman -Rns kmail
+update
+cd .config
+la
+mv code-flags.conf code-flags.conf.bak
+sudo pacman -S firefox-kde-opensuse
+yay -S firefox-kde-opensuse
+yay -S firefox-appmenu-bin
+reboot
+sudo pacman -Rns akonadi
+sudo pacman -S firefox
+sudo pacman -Rns kalendar
+sudo pacman -S mariadb-libs
+update
+sudo pacman -S kmozillahelper
+yay -S kmozillahelper
+cd /etc/profile.d/
+la
+v mozilla-common.sh
+sudo nvim mozilla-common.sh
+cd /etc/profile.d/
+la
+sudo nvim mozilla-common.sh
+la
+cd Projects
+la
+v Test.java
+javac Test.java
+v Test.java
+javac Test.java
+v Test.class
+cd Projects
+v Test.java
+cd Projects
+la
+rm Test.class
+rm Test.java
+objdump
+update
+git pull origin main
+cd Projects
+la
+mkdir hvassahraun
+mv edr_app hvassahraun/edr_app
+mv edr_subscriber hvassahraun/edr_subscriber
+mv edr_backend hvassahraun/edr_backend
+cd hvassahraun
+la
+v .
+update
+sudo nvim /etc/pacman.conf
+sudo pacman-key --recv-keys BBFE2FD421597395E4FC8C8DF6C85FEE79D661A4
+pacman-key --finger BBFE2FD421597395E4FC8C8DF6C85FEE79D661A4
+sudo pacman-key --lsign-key  BBFE2FD421597395E4FC8C8DF6C85FEE79D661A4
+sudo pacman-key --refresh-keys
+yay -S firefox-kde-opensuse
+update
+sudo nvim /etc/pacman.conf
+update
+sudo pacman -Syu
+yay
+update
+cd .config/nvim
+la
+v source
+v .
+la
+time zsh .zshrc
+update
+knewstuff
+update
+sudo pacman -S fzf
+sudo pacman -S zsh-completions
+sudo pacman -Rns zsh-completions
+flatpak install paper
+sudo pacman -S cantarell-fonts
+sudo pacman -S gsettings-desktop-schemas
+sudo pacman -S xdg-desktop-portal-gtk
+update
+v .config/nvim/source/plugins.vim
+v
+v .config/nvim/init.vim
+v .config/nvim/source/lang.vim
+v .config/nvim/source/plugins.vim
+v
+v .config/nvim/source/lang.vim
+v .config/nvim/source/binds.vim
+cd Projects
+la
+cd skalholt
+cd backend
+v .
+git add .
+aurlist
+paclist
+dots add -u
+dots commit -m "desktop stuff"
+dots push origin main
+jctl
+top
+reboot
+jctl
+cd Projects
+la
+cat .zshrc
+ssh-pi-local
+cd hvassahraun/edr_subscriber
+la
+npm run dev
+la
+v .
+npm install pako
+v .
+npm run dev
+v .
+npm run dev
+git add .
+git commit -m "mqtt blocking send thread with gzip"
+git push origin main
+git add .
+git commit -m "gzip decompress with parsing"
+git push origin main
+update
+cd .config/nvim
+la
+v init.vim
+v .
+cd $HOME
+dots add -u
+dots commit -m "desktop stuff"
+dots push origin main
+cd Projects
+la
+cd anjrv.github.io
+la
+cd hw2
+la
+v heimadaemi2.md
+la
+cd ..
+la
+cd v3
+la
+v .
+yay -S rpi-imager
+update
+cd .ssh
+la
+cat id_ed25519.pub
+cd .ssh
+ls
+cat known_hosts
+v .zshrc
+ssh-hv-local
+cd .ssh
+la
+v known_hosts
+ssh-hv-local
+man fzf
+tldr fzf
+find $HOME/Projects/hvassahraun -type f | fzf
+find $HOME/Projects/hvassahraun -type f | fzf | nvim
+v .zshrc
+git add .
+git commit -m "password client"
+git push origin main
+ssh-hv-local
+ssh-pi-local
+ssh-hv-local
+cd Projects/hvassahraun
+cd edr_subscriber
+git add .
+git commit -m "password client"
+git push origin main
+git add .
+git commit -m "comments, cleanup"
+git push origin main
+cd Projects/hvassahraun/edr_subscriber
+v .
+cd Projects/hvassahraun/edr_subscriber
+git add .
+git commit -m "moved userdata to .env"
+git push origin main
+git add .
+git commit -m "moved userdata to secrets"
+git push origin main
+v .env
+update
+ssh-hv-local
+nc IP
+nc 6.ifcfg.me 23 | grep IP
+curl -4 icanhazip.com
+v .zshrc
+curr-ip
+sudo pacman -S pacman-contrib
+sudo pacman -S ffmpeg
+pactree ffmpeg-obs -r
+gamescope --help
+top
+update
+reboot
+update
+systemctl status postgresql
+systemctl restart postgresql
+systemctl status postgresql
+pg mch
+jctl
+speedtest
+sudo pacman -S sweeper
+sudo pacman -S krusader
+sudo pacman -S kompare krename
+where kdiff
+where kompare
+man kompare
+update
+reboot
+jctl
+update
+jctl
+locate pipewire.conf
+sudo updatedb
+systemctl status --user wireplumber
+locate pipewire.conf
+cd /usr/share/pipewire
+la
+v pipewire.conf
+cd .config/pipewire
+la
+v pipewire.conf
+reboot
+jctl
+cd .config/pipewire
+v pipewire.conf
+ls
+sudo pacman -S android-tools
+adb shell screencap -h
+adb shell screenrecord --output-format=h264 - | mpv -
+adb shell screenrecord --output-format=h264 | mpv --no-correct-pts --fps=60
+adb shell screenrecord -h
+adb shell screenrecord --help
+adb shell screenrecord --output-format=h264 - | ffplay -
+adb shell screenrecord --output-format=h264 - | mpv -
+v .zshrc
+sudo pacman -S mplayer
+v .zshrc
+adb-mirror
+ssh-hv-local
+v .zshrc
+ssh-hv-local
+npm install mongodb --save
+systemctl status mongod
+ssh-hv-local
+cd .config
+ls
+v code-flags.conf
+ls
+mv code-flags.conf.bak code-flags.conf
+ssh-hv-local
+git add .
+git commit -m "mongodb insertion function"
+git push origin main
+ssh-hv-local
+git add .
+git commit -m "mongodb insertion function"
+git push origin main
+git add .
+git commit -m "mongodb insertion function"
+git push origin main
+jctl
+sudo pacman -Rns timeshift
+sudo pacman -S xorg-xhost
+ncdu
+update
+cd .config
+la
+mkdir zsh
+cd zsh
+mkdir plugins
+cd $HOME
+v .zshrc
+dots add -u
+dots commit -m "stuff"
+dots push origin main
+update
+update
+la
+v .zshrc
+v .zshenv
+v .zshrc
+flatpak uninstall --unused
+la
+la
+cd .config/zsh
+la
+v zsh_functions
+mv zsh_functions zsh-functions
+la
+touch zsh-aliases
+v zsh-aliases
+cd .zshrc
+v .zshrc
+v .config/zsh/zsh-aliases
+la
+v .config/zsh/zsh-exports
+v .zshrc
+dots add -u
+dots add ~/.config/zsh/plugins/zsh-*
+git status
+dots status
+git reset
+dots reset
+dots status
+dots add -u
+dots add ~/.config/zsh/zsh-*
+dots status
+dots commit -m "cleanup"
+dots push origin main
+conda-init
+la
+ex 
+la
+conda-init
+conda config --set changeps1 False.
+conda-init
+la
+la
+conda-init
+conda config --set changeps1 True
+conda-init
+cd .config
+cat starship.toml
+v starship.toml
+update
+lynis
+sudo lynis
+sudo lynis audit system
+sudo pacman -S lynis
+cd .config/zsh
+la
+cd plugins
+la
+rm -rf zsh-autopair
+la
+v .zshrc
+dots add -u
+dots commit -m "cleanup"
+dots push origin main
+v .config/zsh/zsh-aliases
+v .zshrc
+la
+dots add -u
+dots commit -m "cleanup"
+dots push origin main
+sudo lynis audit system
+v .zshrc
+v .config/zsh/zsh-aliases
+la
+v .zshrc
+ssh-hv-local
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Projects
+ cd /home/anjrv/Projects/skalholt
+ cd /home/anjrv/Projects/skalholt/backend
+ssh-hv-local
+ssh-hv-local
+npm run dev
+npm run dev
+git add .
+git commit -m "workers, logging"
+git push origin main
+git add .
+git commit -m "workers, logging"
+git push origin main
+git add .
+git commit -m "workers, logging"
+git push origin main
+git add .
+git commit -m "workers, logging"
+git push origin main
+git add .
+git commit -m "workers, logging"
+git push origin main
+git add .
+git commit -m "workers, logging"
+git push origin main
+git add .
+git commit -m "workers, logging"
+git push origin main
+git add .
+git commit -m "workers, logging"
+git push origin main
+ssh-hv-local
+update
+time zsh .zshrc
+v .zshrc
+cd .config
+la
+cd zsh
+la
+v zsh-aliases
+v zsh-exports
+la
+time zsh .zshrc
+jctl
+git add .
+git commit -m "unroll session variable"
+git push origin main
+ssh-hv-local
+ssh-hv-local
+ssh-hv-local
+git add .
+git commit -m "ui rework, text boxes for session and ip"
+git push origin main
+git add .
+git commit -m "rudimentary file backup system, requires testing"
+git push origin main
+time zsh .zshrc
+update
+ cd /home/anjrv
+ clear
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/.config
+ cd /home/anjrv
+ cd /home/anjrv/.config
+ cd /home/anjrv/.config/Code
+pwd
+cd .config
+la
+mv code-flags.conf code-flags.conf.bak
+git pull origin main
+git add .
+git commit -m "handler with dynamic delay instead of timer for backlog, debugging toasts, more protective internal file listing"
+git push origin main
+ssh-hv-local
+cat .config/zsh
+cat .config/zsh/zsh-aliases
+ssh-hv-local
+rsync -avzhe ssh edr@192.168.1.13:~/Projects/bike_normal.csv ~/Projects/hvassahraun/
+tldr rsync
+v .config/zsh/zsh-aliases
+dots add -u
+dots status
+dots commit -m "alias"
+dots push origin main
+ cd /home/anjrv
+ clear
+ cd /run/user/1000/kio-fuse-CAkAKP/smb/192.168.1.6/backup
+ cd /run/user/1000/kio-fuse-CAkAKP/smb/192.168.1.6/backup/jaan
+ cd /run/user/1000/kio-fuse-CAkAKP/smb/192.168.1.6/backup/jaan/hvassahraun
+cd Downloads
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Projects
+ cd /home/anjrv/Projects/hvassahraun
+v .zshrc
+cd Downloads
+git clone git@github.com:anjrv/edr_subscriber.git
+dolphin .
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Downloads
+update
+ssh-hv-local
+update
+ cd /home/anjrv
+ clear
+ssh-hv-local
+ssh-hv-local
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Projects
+ cd /home/anjrv/Projects/hvassahraun
+dots status
+dots add -u
+dots commit -m "hist"
+dots push origin main
+v .zshrc
+v .zshrc
+fc -w
+fc -W
+v .zshrc
+la
+dots add -u
+dots commit -m "hist"
+dots push origin main
+time zsh .zshrc
+v .zshrc
+update
+man botan
+sudo pacman -S botan
+sudo pacman -Rns botan
+ cd /home/anjrv
+ clear
+update
+update
+reboot
+time zsh .zshrc
+git pull originain
+git pull origin main
+git pull origin main
+git add .
+git commit -m "manuf + id as mqtt client string to differentiate devices"
+git push origin main
+cat .zshrc
+cat .config/zsh/zsh-aliases
+ cd /home/anjrv
+ clear
+ cd /run/user/1000/kio-fuse-LBHARb/smb/192.168.1.6/backup
+ cd /run/user/1000/kio-fuse-LBHARb/smb/192.168.1.6/backup/jaan
+ssh-pi-local
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Postman
+ cd /home/anjrv
+ cd /home/anjrv/Projects
+ cd /home/anjrv/Projects/skalholt
+ cd /home/anjrv/Projects
+ cd /home/anjrv/Projects/hvassahraun
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Projects
+ cd /home/anjrv/Projects/hvassahraun
+git add .
+git commit -m "nothing"
+git push origin main
+ssh-hv-local
+ssh-hv-local
+rsync -avzhe ssh edr@192.168.1.13:~/Projects/bike_normal_prio.csv ~/Projects/hvassahraun/
+ cd /home/anjrv
+ clear
+ cd /run/user/1000/kio-fuse-LBHARb/smb/192.168.1.6/backup
+ cd /run/user/1000/kio-fuse-LBHARb/smb/192.168.1.6/backup/jaan
+ cd /run/user/1000/kio-fuse-LBHARb/smb/192.168.1.6/backup/jaan/hvassahraun
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Projects
+ cd /home/anjrv/Projects/hvassahraun
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Projects
+ cd /home/anjrv/Projects/hvassahraun
+ssh-hv-local
+git add .
+git commit -m "on switch toggle stop: remove sensor callbacks and send partial dataframe"
+git push origin main
+git add .
+git commit -m "on switch toggle stop: remove sensor callbacks and send partial dataframe"
+git push origin main
+ cd /home/anjrv
+ clear
+update
+mirror
+ssh-hv-local
+ssh-hv-local
+git add .
+git commit -m "ip validator"
+git push origin main
+ssh-hv-local
+update
+cd Projects/hvassahraun/
+la
+v maps_api
+cd Projects/hvassahraun/
+v maps_api
+ cd /home/anjrv
+ clear
+la
+cd Downloads
+git clone https://github.com/adeyblue/GTVolTools.git
+cd GTVolTools
+la
+la
+v .
+v .
+ffmpeg -encoders | grep vaapi
+aurlist
+paclist
+la
+cd Documents
+la
+la
+cat aurlist.txt
+ssh-hv-local
+yay -S cef-minimal-obs-bin
+sudo pacman -Rns cef-minimal-obs-bin
+yay -S cef-minimal-obs-bin
+update
+v .zshrc
+time zsh .zshrc
+ssh-hv-local
+cat .config/zsh/zsh-aliases
+adb-mirror
+sudo pacman -S libva-mesa-driver
+obs
+ssh-hv-local
+ssh-hv-local
+ssh-hv-local
+rsync -avzhe ssh edr@192.168.1.13:~/Projects/bike_hz.csv ~/Projects/hvassahraun/
+exit
+ cd /home/anjrv
+ clear
+ cd /run/user/1000/kio-fuse-mNyOXl/smb/192.168.1.6/backup
+ cd /run/user/1000/kio-fuse-mNyOXl/smb/192.168.1.6/backup/jaan
+ cd /run/user/1000/kio-fuse-mNyOXl/smb/192.168.1.6/backup/jaan/hvassahraun
+mq
+ssh-hv-local
+update
+cd Projects/hvassahraun/
+la
+cd edr_stats
+la
+pwd
+ cd /home/anjrv
+ clear
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Projects
+ cd /home/anjrv/Projects/workspace
+ cd /home/anjrv/Projects
+ cd /home/anjrv/Projects/hvassahraun
+ cd /home/anjrv/Projects/hvassahraun/edr_subscriber
+ cd /home/anjrv/Projects/hvassahraun
+ cd /home/anjrv/Projects/hvassahraun/edr_backend
+ cd /home/anjrv/Projects/hvassahraun
+ cd /home/anjrv/Projects/hvassahraun/edr_app
+ cd /home/anjrv/Projects/hvassahraun
+ cd /home/anjrv/Projects/hvassahraun/edr_stats
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Projects
+ cd /home/anjrv/Projects/hvassahraun
+ cd /home/anjrv/Projects/hvassahraun/edr_stats
+ cd /run/user/1000/kio-fuse-mNyOXl/remote
+ cd /run/user/1000/kio-fuse-mNyOXl/smb/192.168.1.6/backup
+ cd /run/user/1000/kio-fuse-mNyOXl/smb/192.168.1.6/backup/jaan
+ cd /run/user/1000/kio-fuse-mNyOXl/smb/192.168.1.6/backup/jaan/hvassahraun
+ cd /home/anjrv
+ cd /home/anjrv/Projects
+ cd /home/anjrv/Projects/hvassahraun
+ cd /home/anjrv/Projects/hvassahraun/edr_stats
+git add .
+git commit -m "try reduce impact of garbage collector"
+git push origin main
+git add .
+git commit -m "send more often, smaller timeout, see if this improves max delay"
+git push origin main
+git add .
+git commit -m "send more often, smaller timeout, see if this improves max delay"
+git push origin main
+git add .
+git commit -m "send more often, smaller timeout, see if this improves max delay"
+git push origin main
+ cd /home/anjrv
+ clear
+ssh-hv-local
+git add .
+git commit -m "reduce object creation to lower gc impact"
+git push origin main
+git add .
+git commit -m "reduce object creation to lower gc impact"
+git push origin main
+git add .
+git commit -m "reduce object creation to lower gc impact"
+git push origin main
+killall rstudio
+ssh-hv-local
+rsync -avzhe ssh edr@192.168.1.13:~/Projects/walk.csv ~/Projects/hvassahraun/
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Projects
+ cd /home/anjrv/Projects/hvassahraun
+ cd /home/anjrv/Projects/hvassahraun/edr_stats
+v .zshrc
+rsync -avzhe ssh edr@192.168.1.13:~/Projects/desk.csv ~/Projects/hvassahraun/edr_stats
+ssh-hv-local
+ssh-hv-local
+ssh-hv-local
+git add .
+git commit -m "reduce object creation to lower gc impact"
+git push origin main
+update
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Projects
+ cd /home/anjrv/Projects/hvassahraun
+ cd /home/anjrv/Projects/hvassahraun/edr_stats
+ cd /home/anjrv/Projects/hvassahraun
+ cd /home/anjrv/Projects/hvassahraun/tmp
+update
+update
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Downloads
+ssh-hv-local
+rsync -avzhe ssh edr@192.168.1.13:~/Projects/walk-new.csv ~/Projects/hvassahraun/edr_stats
+ssh-hv-local
+ssh-hv-local
+ssh-hv-local
+rsync -avzhe ssh edr@192.168.1.13:~/Projects/desk-new.csv ~/Projects/hvassahraun/edr_stats
+update
+update
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Projects
+ cd /home/anjrv/Projects/hvassahraun
+ cd /home/anjrv/Projects/hvassahraun/tmp
+ cd /home/anjrv/Projects/hvassahraun/tmp/edr_app
+ cd /home/anjrv/Projects/hvassahraun/tmp/edr_app/.git
+ cd /home/anjrv/Projects/hvassahraun/tmp/edr_app/app/src/main/res/mipmap-hdpi/
+ clear
+ssh-hv-local
+rsync -avzhe ssh edr@192.168.1.13:~/Projects/drive.csv ~/Projects/hvassahraun/edr_stats
+cd Projects/hvassahraun/edr_stats
+la
+head drive.csv
+ssh-hv-local
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Projects
+ cd /home/anjrv/Projects/hvassahraun
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Projects
+ cd /run/user/1000/kio-fuse-WVdiCh/remote
+ cd /run/user/1000/kio-fuse-WVdiCh/smb/192.168.1.6/backup
+ cd /run/user/1000/kio-fuse-WVdiCh/smb/192.168.1.6/backup/jaan
+ cd /run/user/1000/kio-fuse-WVdiCh/smb/192.168.1.6/backup/jaan/hvassahraun
+ cd /home/anjrv
+ clear
+update
+reboot
+v
+time zsh .zshrc
+zsh-update-plugins
+cat .config/zsh/zsh-aliases
+la
+cd Projects/hvassahraun/edr_stats
+la
+ cd /home/anjrv
+ clear
+ cd /run/user/1000/kio-fuse-SQVpCx/trash
+ssh-hv-local
+update
+update
+update
+reboot
+git add .
+git commit -m "rewrite, split to services"
+git push origin main
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Projects
+ cd /home/anjrv/Projects/hvassahraun
+ cd /home/anjrv/Projects
+ cd /home/anjrv/Projects/hvassahraun
+ cd /home/anjrv/Projects/hvassahraun/tmp
+ cd /home/anjrv/Projects/hvassahraun
+ cd /home/anjrv/Projects
+ cd /home/anjrv/Projects/hvassahraun
+ cd /home/anjrv/Projects/hvassahraun/old
+ cd /home/anjrv/Projects/hvassahraun
+ssh-hv-local
+sudo pacman -S lib32-alsa-lib
+sudo pacman -Syu
+sudo pacman -S alsa-lib
+pactree lib32-alsa-lib -r
+sudo nvim /etc/pacman.conf
+update
+jctl
+update
+update
+cd .config
+la
+mv code-flags.conf.bak code-flags.conf
+cat code-flags.conf
+v chrome-flags.conf
+v .config/chrome-flags.conf
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Projects
+ cd /home/anjrv/Projects/hvassahraun
+ cd /home/anjrv/Projects/hvassahraun/tmp
+ cd /home/anjrv/Projects/hvassahraun/tmp/edr_app
+ cd /home/anjrv/Projects/hvassahraun/tmp
+ cd /home/anjrv/Projects/hvassahraun
+ cd /home/anjrv
+ clear
+ cd /run/user/1000/kio-fuse-JNmhKP/smb/192.168.1.6/backup
+ cd /run/user/1000/kio-fuse-JNmhKP/smb/192.168.1.6/backup/jaan
+ cd /run/user/1000/kio-fuse-JNmhKP/smb/192.168.1.6/backup/jaan/hvassahraun
+ cd /run/user/1000/kio-fuse-JNmhKP/smb/192.168.1.6/backup/jaan/hvassahraun/tmp
+ cd /run/user/1000/kio-fuse-JNmhKP/smb/192.168.1.6/backup/jaan/hvassahraun
+ cd /run/user/1000/kio-fuse-JNmhKP/smb/192.168.1.6/backup/jaan/hvassahraun/edr_subscriber
+ cd /run/user/1000/kio-fuse-JNmhKP/smb/192.168.1.6/backup/jaan/hvassahraun
+aun/old
+ cd /run/user/1000/kio-fuse-JNmhKP/smb/192.168.1.6/backup/jaan/hvassahraun
+update
+reboot
+jctl
+top
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Downloads
+ cd /home/anjrv/Downloads/HelloWPFApp
+ cd /home/anjrv/Downloads/HelloWPFApp/HelloWPFApp
+ cd /home/anjrv/Downloads/HelloWPFApp
+ cd /home/anjrv/Downloads
+ cd /home/anjrv/Downloads/HelloWPFApp
+ cd /home/anjrv/Downloads/HelloWPFApp/HelloWPFApp
+sudo pacman -S dotnet-runtime
+sudo pacman -S dotnet-sdk
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Downloads
+update
+reboot
+update
+update
+jctl
+update
+jctl
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Downloads
+sudo pacman -S qmk
+qmk
+update
+sudo pacman -Rns via
+yay -S via
+sudo pacman -Rns via-bin
+sudo pacman -S appimage
+cd Downloads
+la
+chmod +x via-1.3.1-linux.AppImage
+./via-1.3.1-linux.AppImage
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Downloads
+yay -S via
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Downloads
+ cd /home/anjrv
+ clear
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Downloads
+ cd /home/anjrv
+ cd /home/anjrv/Downloads
+ cd /run/user/1000/kio-fuse-jCmpSx/smb/192.168.1.6/backup
+ cd /run/user/1000/kio-fuse-jCmpSx/smb/192.168.1.6/backup/jaan
+ cd /run/user/1000/kio-fuse-jCmpSx/smb/192.168.1.6/backup/jaan/hvassahraun
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Downloads
+v 
+rsync -avzhe ssh edr@192.168.1.13:~/Projects/gc1.csv ~/Projects/hvassahraun/edr_stats
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Projects
+ cd /home/anjrv/Projects/hvassahraun
+ cd /home/anjrv/Projects/hvassahraun/edr_stats
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Downloads
+ cd /home/anjrv
+ cd /home/anjrv/Projects
+ cd /home/anjrv/Projects/hvassahraun
+ cd /home/anjrv/Projects/hvassahraun/edr_stats
+ cd /home/anjrv
+ clear
+ssh-hv-local
+ssh-hv-local
+rsync -avzhe ssh edr@192.168.1.13:~/Projects/gc2.csv ~/Projects/hvassahraun/edr_stats
+git add .
+git commit -m "rewrite to static memory, removed toasts to untangle vsync, explicit connection check added"
+git push origin main
+rsync -avzhe ssh edr@192.168.1.13:~/Projects/gc.csv ~/Projects/hvassahraun/edr_stats
+top
+git add .
+git commit -m "rewrite to static memory, removed toasts to untangle vsync, explicit connection check added"
+git push origin main
+ssh-hv-local
+ssh-hv-local
+speedtest
+update
+v
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Projects
+ cd /home/anjrv/Projects/hvassahraun
+ cd /home/anjrv/Projects/hvassahraun/edr_stats
+ cd /home/anjrv/Projects/hvassahraun/edr_stats/tests
+rsync -avzhe ssh edr@192.168.1.13:~/Projects/gc3.csv ~/Projects/hvassahraun/edr_stats
+cd .config/kitty/
+v kitty.conf
+la
+update
+ssh-hv-local
+ssh-hv-local
+git add .
+git commit -m "move backlogs to foreground service to ensure they get sent"
+git push origin main
+update
+sudo pacman -S purpose
+pactree purpose -r
+update
+rsync -avzhe ssh edr@192.168.1.13:~/Projects/disconnects.csv ~/Projects/hvassahraun/edr_stats
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Projects
+ cd /home/anjrv/Projects/hvassahraun
+ cd /home/anjrv/Projects/hvassahraun/edr_subscriber
+ cd /home/anjrv/Projects/hvassahraun
+ cd /home/anjrv/Projects/hvassahraun/edr_stats
+ cd /home/anjrv/Projects/hvassahraun/edr_stats/tests
+update
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Downloads
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Downloads
+git add .
+git commit -m "clean up backlog logic, off by one file fix"
+git push origin main
+git add .
+git commit -m "context changes, always use application context for files"
+git push origin main
+git add .
+git commit -m "EDR using 500 measurement std window, UI additions"
+git push origin main
+ssh-hv-local
+ssh-hv-local
+neofetch
+cd Projects
+la
+mkdir test
+cd test
+v SlidingCalculator.java
+cd Projects
+cd test
+la
+v SlidingCalculator.java
+javac SlidingCalculator.java
+v SlidingCalculator.java
+javac SlidingCalculator.java
+java SlidingCalculator
+v SlidingCalculator.java
+javac SlidingCalculator.java
+java SlidingCalculator
+v SlidingCalculator.java
+javac SlidingCalculator.java
+v SlidingCalculator.java
+javac SlidingCalculator.java
+java SlidingCalculator
+v SlidingCalculator.java
+javac SlidingCalculator.java
+java SlidingCalculator
+v SlidingCalculator.java
+javac SlidingCalculator.java
+java SlidingCalculator
+v SlidingCalculator.java
+javac SlidingCalculator.java
+java SlidingCalculator
+v SlidingCalculator.java
+ssh-hv-local
+git add .
+git commit -m "sliding calculator fix"
+git push origin main
+git add .
+git commit -m "sliding calculator fix"
+git push origin main
+git add .
+git commit -m "sliding calculator fix"
+git push origin main
+git add .
+git commit -m "sliding calculator fix"
+git push origin main
+git add .
+git commit -m "sliding calculator fix"
+git push origin main
+git add .
+git commit -m "more digits for EDR on UI"
+git push origin main
+update
+update
+dotnet --version
+ cd /home/anjrv
+ clear
+ssh-hv-local
+rsync -avzhe ssh edr@192.168.1.13:~/Projects/edr.csv ~/Projects/hvassahraun/edr_stats
+rsync -avzhe ssh edr@192.168.1.13:~/Projects/edr.csv ~/Projects/hvassahraun/edr_stats
+ cd /home/anjrv
+ clear
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Downloads
+git pull origin main
+ssh-hv-local
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Projects
+ cd /home/anjrv/Projects/hvassahraun
+ cd /home/anjrv/Projects/hvassahraun/edr_stats
+ cd /home/anjrv/Projects/hvassahraun/edr_stats/tests
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Projects
+ cd /home/anjrv/Projects/hvassahraun
+ cd /home/anjrv/Projects/hvassahraun/edr_stats
+ cd /home/anjrv/Projects/hvassahraun/edr_app/app/build/outputs/apk/debug
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Downloads
+ cd /run/user/1000/kio-fuse-LcKoIF/smb/192.168.1.6/backup
+ cd /run/user/1000/kio-fuse-LcKoIF/smb/192.168.1.6/backup/jaan
+ cd /run/user/1000/kio-fuse-LcKoIF/smb/192.168.1.6/backup/jaan/hvassahraun
+ cd /run/user/1000/kio-fuse-LcKoIF/smb/192.168.1.6/backup/jaan/hvassahraun/edr_stats
+ cd /run/user/1000/kio-fuse-LcKoIF/smb/192.168.1.6/backup/jaan/hvassahraun
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Projects
+ cd /home/anjrv/Projects/hvassahraun
+ cd /home/anjrv/Projects/hvassahraun/edr_stats
+ cd /home/anjrv/Projects/hvassahraun/edr_stats/tests
+ cd /home/anjrv
+ clear
+ cd /run/user/1000/kio-fuse-LcKoIF/smb/192.168.1.6/backup
+ cd /run/user/1000/kio-fuse-LcKoIF/smb/192.168.1.6/backup/jaan
+ cd /run/user/1000/kio-fuse-LcKoIF/smb/192.168.1.6/backup/jaan/hvassahraun
+update
+update
+ssh-hv-local
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Projects
+update
+update
+ssh-hv-local
+cd .config/zsh
+la
+v zsh-aliases
+ssh-pi-local
+ssh-pi-local
+ssh-pi-local
+cd .config/zsh
+v zsh-aliases
+ssh-pi-local
+ssh-pi-local
+ssh-pi-local
+cd .config/zsh
+v zsh-aliases
+ssh-pi-local
+ssh-pi-local
+ssh-pi-local
+ssh-pi-local
+kitty +kitten ssh radikamari@192.168.1.6\
+
+ cd /home/anjrv
+ clear
+ cd /run/user/1000/kio-fuse-cTxMQz/smb/192.168.1.6/backup
+ cd /run/user/1000/kio-fuse-cTxMQz/smb/192.168.1.6/backup/jaan
+update
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Downloads
+ cd /home/anjrv/Pictures
+ cd /home/anjrv/Downloads
+sudo pacman -S libratbag
+sudo pacman -S piper
+systemctl status ratbagd
+sudo systemctl daemon-reload
+sudo systemctl reload dbus.service
+sudo systemctl enable ratbagd.service
+sudo systemctl start ratbagd.service
+update
+sudo pacman -S sshfs
+ cd /run/user/1000/1c83addd8f6ae52f
+ clear
+ cd /run/user/1000/1c83addd8f6ae52f/DCIM_Camera
+ cd /home/anjrv
+ clear
+ cd /home/anjrv
+ clear
+ cd /home/anjrv
+ clear
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Downloads
+update
+v
+cd Projects/hvassahraun/edr_subscriber
+v .
+cd Projects/hvassahraun/edr_subscriber
+v .
+v
+v .
+v .
+cd .config/nvim
+la
+v source
+ssh-hv-local
+ cd /home/anjrv
+ clear
+jctl
+update
+rsync -avzhe ssh edr@192.168.1.13:~/Projects/rey.csv ~/Projects/hvassahraun/edr_stats
+update
+update
+sudo pacman -S breeze-gtk
+sudo pacman -S kde-gtk-config
+jctl
+update
+update
+jctl
+update
+top
+killall zoom
+killall zoom-git
+update
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Downloads
+cd Projects/hvassahraun/edr_stats
+la
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Downloads
+speedtest
+cd Projects/hvassahraun/
+la
+rm -rf edr_sanitycheck
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Projects
+ cd /home/anjrv/Projects/hvassahraun
+mvn clean install -U
+cd /home/anjrv/Projects/hvassahraun
+ls
+ssh-hv-local
+ssh-hv-local
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Projects
+ cd /home/anjrv/Projects/hvassahraun
+ cd /home/anjrv/Projects/hvassahraun/edr_stats
+rsync -avzhe ssh edr@192.168.1.13:~/Projects/bedr.csv ~/Projects/hvassahraun/edr_stats
+git add .
+git commit -m "EDR calculation fix"
+git push origin main
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Downloads
+ cd /home/anjrv
+ cd /home/anjrv/Projects
+ cd /home/anjrv/Projects/hvassahraun
+ cd /home/anjrv/Projects/hvassahraun/edr_app/app/build/outputs/apk/debug
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Projects
+ cd /home/anjrv/Projects/hvassahraun
+ cd /home/anjrv/Projects/hvassahraun/edr_stats
+ cd /home/anjrv/Projects/hvassahraun/edr_stats/tests
+ cd /home/anjrv/Projects/hvassahraun/edr_stats
+ cd /home/anjrv/Projects/hvassahraun/edr_stats/tests
+update
+ssh-hv-local
+ cd /home/anjrv/Downloads/
+ clear
+ssh-hv-local
+ssh-hv-local
+R
+jctl
+update
+cd .config/zsh
+v zsh-aliases
+firmware
+top
+v
+ssh-hv-local
+ssh-hv-local
+rsync -avzhe ssh edr@192.168.1.13:/media/brussels.csv ~/Projects/hvassahraun/edr_stats
+rsync -avzhe ssh edr@192.168.1.13:~/media/brussels.csv ~/Projects/hvassahraun/edr_stats
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Downloads
+ cd /home/anjrv
+ cd /home/anjrv/Projects
+ cd /home/anjrv/Projects/hvassahraun
+ cd /home/anjrv/Projects/hvassahraun/edr_stats
+ cd /run/user/1000/kio-fuse-iVuAEl/smb/192.168.1.6/backup
+ cd /run/user/1000/kio-fuse-iVuAEl/smb/192.168.1.6/backup/jaan
+ cd /run/user/1000/kio-fuse-iVuAEl/smb/192.168.1.6/backup/jaan/hvassahraun
+ cd /run/user/1000/kio-fuse-iVuAEl/smb/192.168.1.6/backup/jaan/hvassahraun/edr_stats
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Projects
+ cd /home/anjrv/Projects/hvassahraun
+ cd /home/anjrv/Projects/hvassahraun/edr_stats
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Projects
+ cd /home/anjrv/Projects/hvassahraun
+ cd /home/anjrv/Projects/hvassahraun/edr_stats
+top
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Projects
+ cd /home/anjrv/Projects/hvassahraun
+ cd /home/anjrv/Projects/hvassahraun/edr_stats
+ cd /home/anjrv/Projects/hvassahraun/edr_stats/tests
+ cd /home/anjrv/Projects/hvassahraun/edr_stats
+ cd /home/anjrv/Projects/hvassahraun
+ cd /home/anjrv/Projects/hvassahraun/edr_stats
+ cd /home/anjrv
+ clear
+update
+sudo pacman -S rkhunter
+rkhunter --propupd
+sudo rkhunter --propupd
+rkhunter --config-check
+sudo rkhunter --config-check
+sudo rkhunter --check --sk
+cat /var/log/rkhunter.log
+sudo cat /var/log/rkhunter.log
+sudo pacman -S arch-audit
+arch-audit
+cd /var/log
+la
+sudo mkdir /var/log/audit
+sudo chown root:root /var/log/audit && chmod 0700 /var/log/audit
+sudo chmod 0700 /var/log/audit
+auditctl -w /etc/passwd -p rwxa
+sudo auditctl -w /etc/passwd -p rwxa
+sudo auditctl -w /etc/security/
+sudo lynis audit system
+sudo lynis audit system
+sudo pacman -S audit
+systemctl enable auditd
+systemctl start auditd
+jctl
+systemctl restart auditd
+systemctl status auditd
+systemctl start auditd
+jctl
+jctl
+auditctl -l
+sudo auditctl -l
+cd /etc/audit/
+la
+sudo nvim audit.rules
+update
+sudo lynis audit system
+update
+sudo pacman -S augenrules
+cd /etc/audit
+la
+v audit.rules
+sudo nvim audit.rules
+augenrules --check
+sudo augenrules --check
+la
+sudo mkdir rules.d
+la
+sudo chmod rules.d 700
+sudo chmod 700 rules.d
+la
+sudo chmod 750 rules.d
+la
+sudo mv audit.rules rules.d
+la
+ls rules.d
+sudo ls rules.d
+sudo augenrules --check
+sudo augenrules --load
+la
+v audit.rules
+sudo nvim audit.rules
+cd rules.d
+sudo nvim rules.d/audit.rules
+sudo augenrules --load
+sudo cat audit.rules
+la
+sudo nvim rules.d/audit.rules
+sudo augenrules --load
+sudo augenrules --check
+cd /var/log
+la
+sudo mkdir /var/log/audit
+sudo chown root:root /var/log/audit
+sudo chmod 0700 /var/log/audit
+restorecon
+systemctl start auditd
+systemctl status auditd
+jctl
+systemctl status auditd
+systemctl status auditd
+reboot
+jctl
+cd /etc/audit
+la
+v rules.d/audit.rules
+sudo nvim rules.d/audit.rules
+jctl
+update
+killall zoom
+jctl
+reboot
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Projects
+ cd /home/anjrv/Projects/hvassahraun
+ cd /home/anjrv/Projects/hvassahraun/edr_stats
+update
+top
+cd Projects/hvassahraun/
+la
+ cd /home/anjrv
+ clear
+ cd /run/user/1000/kio-fuse-FTKpBz/smb/192.168.1.6/backup
+ cd /run/user/1000/kio-fuse-FTKpBz/smb/192.168.1.6/backup/kino
+ cd /run/user/1000/kio-fuse-FTKpBz/smb/192.168.1.6/backup/kino/seeriad
+update
+update
+reboot
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Projects
+ cd /home/anjrv/Projects/hvassahraun
+ cd /home/anjrv/Projects/hvassahraun/edr_stats
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Projects
+ cd /home/anjrv/Projects/hvassahraun
+ cd /home/anjrv/Projects/hvassahraun/edr_stats
+ cd /home/anjrv/Projects/hvassahraun/edr_stats/tests
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Projects
+ cd /home/anjrv/Projects/hvassahraun
+ cd /home/anjrv/Projects/hvassahraun/edr_stats
+ cd /home/anjrv
+ clear
+ cd /run/user/1000/kio-fuse-WxjUhG/smb/192.168.1.6/backup
+ cd /run/user/1000/kio-fuse-WxjUhG/smb/192.168.1.6/backup/jaan
+ cd /run/user/1000/kio-fuse-WxjUhG/smb/192.168.1.6/backup/jaan/hvassahraun
+update
+jctl
+mirror
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Downloads
+sudo pacman -S neovim
+sudo pacman -S prettier
+sudo pacman -S stylelua
+sudo pacman -S stylua
+yay -S google-java-format
+sudo pacman -S flake8
+sudo pacman -S luarocks
+cargo update
+rustup update
+cd .config
+la
+mv nvim nvim-old
+la
+ls nvim
+git clone https://github.com/LunarVim/nvim-basic-ide.git ~/.config/nvim
+v
+v
+where java
+cd .zshenv
+v .zshenv
+v .zshrc
+v .zshenv
+sudo pacman -S julia
+sudo pacman -S php
+ cd /home/anjrv
+ clear
+ cd /run/user/1000/kio-fuse-MCHSOK/smb/192.168.1.6/backup
+v
+sudo pacman -S lua-language-server
+cd Projects/hvassahraun/
+cd edr_subscriber
+v .
+cd .config/nvim-old
+la
+cat init.vim
+la
+cd source
+la
+cat appearance.vim
+la
+cd ..
+cat init.vim
+cd source
+la
+v plugins.vim
+la
+cat binds.vim
+v binds.vim
+cd Projects/hvassahraun/
+cd edr_subscriber
+v .
+v .
+cd .config/nvim-old
+la
+cd source
+la
+v lang.vim
+cd .config/nvim
+la
+ls -la
+rm -rf .git
+rm -rf .github
+la
+v
+v init.lua
+v init.lua
+v init.lua
+v init.lua
+v init.lua
+v init.lua
+v init.lua
+v init.lua
+v init.lua
+v .
+v
+v
+cd Projects
+la
+cd LV
+la
+v tol103.md
+cd .config/nvim
+cd ~/.config/nvim
+la
+v .
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/.config
+ cd /run/user/1000/kio-fuse-MCHSOK/smb/192.168.1.6/backup
+ cd /run/user/1000/kio-fuse-MCHSOK/smb/192.168.1.6/backup/jaan
+cd .config/google-chrome
+la
+cd Local\ State
+la
+la
+v Local\ State
+cd Default
+la
+la
+cd Projects
+la
+cd hvassahraun/edr_subscriber
+v .
+v .
+cd .config/nvim
+la
+v .
+cd .config/nvim-old
+la
+cd source
+la
+v lang.vim
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/.config
+ cd /home/anjrv
+ clear
+ cd /run/user/1000/kio-fuse-MCHSOK/smb/192.168.1.6/backup
+ cd /run/user/1000/kio-fuse-MCHSOK/smb/192.168.1.6/backup/jaan
+javac --version
+which java
+cd /usr/bin/java
+cd .zshrc
+v .zshrc
+echo $JAVA_HOME
+v .zshenv
+cd .config/nvim
+v .
+cd Projects
+la
+cd hvassahraun/edr_sanitycheck
+v .
+cd Projects/hvassahraun/edr_sanitycheck
+v .
+v .
+cd Projects
+la
+v TOL607
+cd Projects/hvassahraun/edr_sanitycheck
+v .
+cd Projects/hvassahraun/
+la
+v edr_sanitycheck
+v edr_subscriber
+cd .config/nvim
+ls
+git clone git@github.com:microsoft/java-debug.git
+cd java-debug
+la
+./mvnw clean install
+export JAVA_HOME=/usr/lib/jvm/default
+./mvnw clean install
+cd ..
+git clone git@github.com:microsoft/vscode-java-test.git
+la
+cd vscode-java-test
+la
+npm i
+npm run build-plugin
+cd ..
+la
+mkdir ftplugin
+cd ftplugin
+v java.lua
+cd ..
+v .
+v .
+v .
+v .
+la
+v .
+v .
+v .
+v .
+cd ..
+dolphin .
+v .
+cd Projects
+la
+v LV
+v TOL607
+cd .config/nvim
+la
+v .
+v .
+v .
+cd Projects/hvassahraun/
+v .
+v .
+cd .config/nvim
+la
+v .
+cd Projects/hvassahraun/
+la
+v .
+cd Projects/hvassahraun/
+la
+v edr_app
+v
+cd .config/nvim
+la
+v .
+cd .config/nvim-old
+la
+cd source
+la
+v lang.vim
+cd Projects/hvassahraun/
+la
+v edr_subscriber
+v .
+cd .config/nvim
+la
+cd ftplugin
+la
+v java.lua
+cd Projects/hvassahraun/edr_subscriber
+la
+v .
+v .zshenv
+v
+v
+cd .config/nvim
+v
+v .
+v .
+cd Projects/hvassahraun/edr_subscriber
+v .
+ cd /home/anjrv
+ clear
+ cd /run/user/1000/kio-fuse-MCHSOK/smb/192.168.1.6/backup
+ cd /run/user/1000/kio-fuse-MCHSOK/smb/192.168.1.6/backup/jaan
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/.config
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Projects
+ cd /home/anjrv/Projects/hvassahraun
+ cd /home/anjrv/Projects/hvassahraun/edr_stats
+ssh-hv-local
+cd Projects/hvassahraun/
+v .
+cd Projects/hvassahraun/
+v .
+v edr_sanitycheck
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Projects
+ cd /home/anjrv/Projects/hvassahraun
+ cd /home/anjrv/Projects/hvassahraun/edr_stats
+ cd /home/anjrv/Projects/hvassahraun/edr_stats/tests
+ cd /home/anjrv
+ clear
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Projects
+ cd /home/anjrv/Projects/hvassahraun
+ cd /home/anjrv/Projects/hvassahraun/edr_stats
+update
+ssh-hv-local
+v .
+cd Projects/hvassahraun/
+v edr_subscriber
+la
+cd .config/nvim
+la
+ls lua
+ls plugin
+dots status -u
+dots status
+dots add $HOME/.config/nvim/init.lua
+dots add $HOME/.config/nvim/lua
+dots add $HOME/.config/nvim/java-debug
+dots status
+dots add $HOME/.config/nvim/ftplugin
+dots add -u
+dots status
+dots commit -m "nvim update"
+dots push origin main
+cd Projects/hvassahraun/
+la
+v
+cd .config/nvim-old
+la
+cd source
+la
+cat lang.vim
+cat lang.vim
+cd Projects/hvassahraun/
+v edr_sanitycheck
+v
+cd .config/nvim
+la
+v .
+cd .config/nvim-old
+la
+cat init.vim
+cd Projects/hvassahraun/
+v edr_sanitycheck
+cd Projects/hvassahraun/
+la
+v edr_subscriber
+cd .config/nvim-old
+la
+cd source
+la
+cat plugins.vim
+cd .config/nvim
+cd ..
+la
+cd ..
+cd nvim
+la
+v .
+ssh-hv-local
+rsync -avzhe ssh edr@192.168.1.13:/media/brussels2.csv ~/Projects/hvassahraun/edr_stats
+jctl
+cd Projects/hvassahraun/
+la
+cd edr_stats
+la
+dolphin .
+cd Projects/hvassahraun/edr_stats
+la
+head brussels2.csv
+cd Projects/hvassahraun/edr_stats
+head brussels2.csv
+cd Projects/hvassahraun/edr_stats
+head brussels2.csv
+ssh-hv-local
+ssh-hv-local
+top
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Projects
+ cd /home/anjrv/Projects/hvassahraun
+ cd /home/anjrv/Projects/hvassahraun/edr_stats
+cd Projects/hvassahraun/edr_stats
+la
+v brussels2_clean.csv
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Projects
+ cd /home/anjrv/Projects/hvassahraun
+ cd /home/anjrv/Projects/hvassahraun/edr_stats
+cd Projects/hvassahraun/edr_stats
+la
+v brussels2_clean.csv
+ cd /home/anjrv
+ clear
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Projects
+ cd /home/anjrv/Projects/hvassahraun
+ cd /home/anjrv/Projects/hvassahraun/edr_stats
+adb
+adb devices -l
+ssh-hv-local
+rsync -avzhe ssh edr@192.168.1.13:/media/walk_btn.csv ~/Projects/hvassahraun/edr_stats
+cd Projects/hvassahraun/edr_stats
+la
+head walk_btn.csv
+ssh-hv-local
+cd Projects/hvassahraun/edr_stats
+la
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Projects
+ cd /home/anjrv/Projects/hvassahraun
+ cd /home/anjrv/Projects/hvassahraun/edr_stats
+ cd /home/anjrv/Projects/hvassahraun/edr_stats/tests
+ cd /home/anjrv/Projects/hvassahraun/edr_stats
+ cd /home/anjrv/Projects/hvassahraun
+ cd /run/user/1000/kio-fuse-YReYfr/smb/192.168.1.6/backup
+ cd /run/user/1000/kio-fuse-YReYfr/smb/192.168.1.6/backup/jaan
+ cd /run/user/1000/kio-fuse-YReYfr/smb/192.168.1.6/backup/jaan/hvassahraun
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Projects/hvassahraun/edr_app/app/build/outputs/apk/debug
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Projects
+ cd /home/anjrv/Projects/hvassahraun
+ cd /home/anjrv/Projects/hvassahraun/edr_stats
+ cd /home/anjrv/Projects/hvassahraun/edr_stats/tests
+git add .
+git commit -m "toggle for send"
+git push origin main
+sudo pacman -S shellcheck
+cd Projects
+v thing.sh
+v thing.sh
+cd Projects/hvassahraun
+v edr_sanitycheck
+cd .config/nvim
+v .
+cd Projects/hvassahraun
+la
+v edr_sanitycheck
+cd .local/cache/nvim/lsp.log
+cd .local/cache/nvim/
+v lsp.log
+cd Projects/hvassahraun
+v edr_app
+v edr_app
+v edr_app
+cd .config/nvim
+v .
+v .
+cd Projects/hvassahraun
+la
+v edr_backend
+cd .config/nvim
+v .
+aurlist
+paclist
+dots status 
+dots add -u
+dots status
+dots commit -m "nvim update"
+dots push origin main
+update
+v .
+v
+v
+cd .config/nvim
+la
+v .
+v
+dots add -u
+dots commit -m "nvim update"
+dots push origin main
+update
+jctl
+update
+cd .local/cache/nvim/
+la
+cat lsp.log
+cd .local/cache/nvim/
+la
+v lsp.log
+v .
+cd Projects/hvassahraun
+v edr_sanitycheck
+la
+cd .config/kitty/kitty.conf
+v .config/kitty/kitty.conf
+cd Projects/hvassahraun
+v edr_backend
+xeyes
+sudo pacman -S xeyes
+sudo pacman -S xorg-xeyes
+xeyes
+sudo pacman -S hdparm
+flatpak install gnome-disks
+flatpak install gnome-disks-utility
+hdparm -Tt /dev/sdX
+lsblk
+hdparm -Tt /dev/nvme0n1p3
+sudo hdparm -Tt /dev/nvme0n1p3
+sudo hdparm -Tt /dev/nvme0n1p3
+jctl
+sudo pacman -S zoom
+yay -S zoom
+zoom
+XDG_CURRENT_DESKTOP=GNOME zoom
+XDG_CURRENT_DESKTOP=GNOME QT_QPA_PLATFORM=wayland zoom
+sudo pacman -Rns zoom
+sudo pacman -S kvantum
+ cd /home/anjrv
+ clear
+yay -S neovide
+yay -S neovide
+jctl
+neovide
+sudo pacman -Rns neovide
+sudo pacman -Rns neovide-bin
+sudo pacman -D --asexplicit sndio
+sudo pacman -Rns neovide-bin
+la
+la
+v .zshenv
+cd Downloads
+la
+rm setup_blood_fresh_supply_1.9.10-1_\(64bit\)_\(31506\).exe
+la
+cat .Rhistory
+rm .Rhistory
+cd .local/bin
+la
+v slowmouse.sh
+cd .local/bin
+la
+mv slowmouse.sh slowmouse
+chmod +x slowmouse
+evhz
+ratbagctl hollering-marmot rate get-all
+ratbagctl G305 rate get-all
+ratbagctl G305 rate set 250
+ratbagctl G305 rate set 1000
+cd Downloads
+la
+v Test.java
+la
+rm Test.java
+la
+bluetoothctl
+cd Projects/hvassahraun
+la
+v edr_sanitycheck
+cd .config/nvim
+v .
+cd Projects/hvassahraun
+v edr_subscriber
+v edr_subscriber
+cd .local/cache/nvim/
+cat lsp.log
+cd Projects/hvassahraun
+v edr_sanitycheck
+v edr_sanitycheck
+v edr_subscriber
+v Test.java
+cd .config/nvim
+v .
+update
+ranger
+cd /tmp
+la
+sudo pacman -S lf
+R
+sudo pacman -S python-pillow
+cd .config/ranger
+la
+v rifle.conf
+la
+v rc.conf
+la
+cd $HOME
+r
+cd $HOME
+which r
+which R
+r
+which R
+ranger
+sudo pacman -Rns jdtls
+update
+rfkill unblock bluetooth
+jctl
+systemctl restart bluetooth
+cd Projects/hvassahraun
+la
+v edr_backend
+cd .config/nvim
+cd $HOME
+cd .config/nvim
+v .
+systemctl status bluetooth
+systemctl start bluetooth
+systemctl status bluetooth
+reboot
+update
+mvn update
+cd .config/nvim
+la
+v .
+cd Projects/hvassahraun
+cd $HOME
+cd Projects/hvassahraun
+la
+rm Test.java
+v edr_sanitycheck
+cd Projects/hvassahraun
+v edr_sanitycheck
+cd Projects/hvassahraun
+la
+v Test.java
+jdtls
+yay -S jdtls
+jdtls
+sudo pacman -S slf4j
+cd .config/nvim
+v .
+v
+cd .config/nvim
+v .
+v
+v
+cd .config/nvim
+la
+v .
+update
+dots add -u
+dots commit -m "nvim update"
+dots push origin main
+la
+cd Projects
+la
+rm mosqitto.conf
+rm -f thing.sh
+la
+v test.py
+la
+cd Projects
+cd Projects
+la
+cd hvassahraun
+la
+v edr_sanitycheck
+v edr_sanitycheck
+cd Projects
+la
+cd hvassahraun
+la
+ls edr_stats
+la
+cd edr_stats
+la
+cd tests
+la
+v .
+cd ..
+cd ..
+la
+cd ..
+la
+cd hvassahraun
+la
+rm Test.java
+la
+cd ..
+la
+v TOL607
+v
+cd .config/nvim
+v .
+v .
+v
+aurlist
+paclist
+dots add -u
+dots commit -m "nvim update, packages"
+dots push origin main
+cd Projects/edr_app
+cd Projects/hvassahraun/edr_app
+la
+ls workspace
+la
+ls .settings
+ls .gitignore
+cat .gitignire
+cat .gitignore
+v .gitignore
+ls
+v .gitignore
+git status
+git rm -r --cached workspace
+git rm -r --cached .settings
+git status
+git commit -am "jdtls settings cleanup"
+git push origin main
+ls
+cd ..
+la
+rm -rf edr_backend
+ls
+ls old
+cd edr_app
+la
+v .gitignore
+la
+cd ..
+la
+cd edr_sanitycheck
+la
+cd src
+la
+cd ..
+la
+cd Projects
+la
+cd rust
+la
+v hello.rs
+v snake
+cat /proc/meminfo
+dd if=/dev/zero of=/swapfile bs=1M count=512 status=progress
+sudo dd if=/dev/zero of=/swapfile bs=1M count=512 status=progress
+chmod 0600 /swapfile
+sudo chmod 0600 /swapfile
+mkswap -U clear /swapfile
+sudo mkswap -U clear /swapfile
+rm -f /swapfile
+sudo rm -f /swapfile
+dd if=/dev/zero of=/swapfile bs=1M count=16000 status=progress\
+
+sudo dd if=/dev/zero of=/swapfile bs=1M count=16000 status=progress\
+
+sudo chmod 0600 /swapfile\
+
+sudo mkswap -U clear /swapfile
+swapon /swapfile
+sudo swapon /swapfile
+sudo nvim /etc/fstab
+cat /proc/meminfo
+reboot
+cat /proc/meminfo
+v
+ cd /home/anjrv
+ clear
+cd Projects
+la
+cd hvassahraun
+la
+mkdir edr_backend
+cd edr_backend
+la
+go mod init edr_backend
+la
+go get -u github.com/gofiber/fiber/v2 go.mongodb.org/mongo-driver/mongo github.com/joho/godotenv github.com/go-playground/validator/v10
+v main.go
+cd Projects
+cd $HOME/.config/nvim
+la
+v .
+cd Projects
+la
+cd hvassahraun
+v edr_backend
+v edr_backend
+cd Projects/hvassahraun/edr_backend
+go ruin main.go
+go run main.go
+dots add -u
+dots commit -m "nvim update (go)"
+dots push origin main
+ssh-hv-local
+v
+cd Projects/hvassahraun/edr_subscriber
+cd ..
+v edr_subscriber
+cd .config/nvim
+la
+v .
+update
+v
+aurlist
+paclist
+dots add -u
+dots commit -m "prettier formatting change"
+dots push origin main
+mirror
+update
+cd Projects/hvassahraun/
+la
+cd edr_backend
+la
+cd ..
+la
+rm -rf edr_backend
+mkdir edr_backend
+cd edr_backend
+la
+npm init
+la
+npm install dotenv --save
+npm install express --save
+npm install express-validator --save
+npm install mongodb --save
+npm install winston --save
+npm install xss --save
+cat package.json
+npm install -D nodemon
+npm audit fix
+npm audit fix --force
+npm audit fix --force
+la
+rm -rf *
+la
+npm init
+npm install -D nodemon
+npm install xss --save
+npm install winston --save
+npm install mongodb --save
+npm install express --save
+npm install express-validator --save
+npm install dotenv --save
+la
+v package.json
+v .env.example
+v .gitignore
+v .gitignore
+rm .gitignore
+git init
+v .gitignore
+la
+mkdir src
+la
+cd src
+v package.json
+la
+v app.js
+la
+mkdir api
+mkdir utils
+cd utils
+cd ..
+cd ..
+la
+v .
+cd .config/nvim
+la
+v .
+chrome-unsafe
+cd Projects/hvassahraun/
+la
+v edr_backend
+la
+cd edr_backend
+la
+v .env
+la
+cd ..
+v edr_backend
+cd Projects/hvassahraun/edr_backend
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+git add .
+git status
+git commit -m "first boilerplate"
+git push -u origin main
+cd Projects/hvassahraun/
+v edr_backend
+update
+cd Projects/hvassahraun/
+la
+v edr_backend
+cd Projects/
+la
+v Test.java
+la
+v Test.java
+la
+v Test.java
+cd Projects/
+la
+v Test.java
+la
+rm Test.java
+la
+mkdir test
+cd test
+la
+v SlidingCalculator.java
+v SlidingCalculator.java
+cd Projects/
+cd test
+la
+v SlidingCalculator.java
+v
+la
+cd Projects/test
+la
+v SlidingCalculator.java
+v .
+cd .config/kitty/kitty.conf
+v .config/kitty/kitty.conf
+aurlist
+paclist
+dots add -u
+dots commit -m "jdtls fix"
+dots push origin main
+la
+cd .config/nvim
+la
+cat .gitignore
+git init
+git remote add origin git@github.com:anjrv/nvim.git
+git branch -M main
+git add .
+git status
+git commit -m "nvim repo for direct clone"
+git push -u origin main
+la
+v README.md
+la
+kate README.md
+cd vscode-java-test
+la
+v .
+la
+cat tsconfig.json
+a
+la
+v .
+cd Projects/skalholt/backend
+la
+v README.md
+kate README.md
+cd .config/nvim
+la
+cat README.md
+kate README.md
+cat README.md
+git add .
+git status
+git commit -m "reminder readme"
+git push -u origin main
+cd .config/nvim
+la
+v README.md
+git add .
+git commit -m "reminder readme"
+git push -u origin main
+mirror
+la
+cd Projects
+la
+cd LV
+la
+v final_project.md
+cd Projects/LV
+la
+v final_project.md
+v final_project.md
+v
+git add .
+cd .config/nvim
+la
+git add .
+git commit -m "reminder readme"
+git push -u origin main
+cd Projects/edr_app
+cd Projects/hvassahraun/edr_app
+la
+la
+v .
+la
+cat gradlew
+v .
+cd ..
+la
+cd ..
+la
+cd hvassahraun
+la
+v edr_sanitycheck
+cd Projects/hvassahraun/
+v edr_backend
+yay -S mongodb-bin
+yay -S mongodb-tools-bin
+systemctl status mongod
+systemctl status mongodb
+systemctl start mongodb
+systemctl enable mongodb
+systemctl status mongodb
+mongo
+ssh-hv-local
+cd Projects/hvassahraun/
+v edr_backend
+ls
+locate .ideavimrc
+dots add /home/anjrv/.ideavimrc
+dots status
+dots add -u
+dots status
+dots commit -m "installers"
+dots push origin main
+cd .config/nvim
+v README.md
+git add .
+git commit -m "reminder readme"
+git push -u origin main
+v
+v
+cd .config/nvim-old
+la
+v init.vim
+la
+v .vimrc
+vim
+cd Projects
+la
+cd ..
+cp .ideavimrc ./Projects/.vimrc
+cd Projects
+la
+v .vimrc
+la
+cd ..
+la
+dots add /home/anjrv/.vimrc
+dots status
+dots add -u
+dots status
+dots commit -m "rsync vimrc"
+dots push origin main
+la
+la
+cd Projects
+la
+rm .vimrc
+cd ..
+dots status
+la
+v
+cd .config/nvim
+la
+git add .
+git commit -m "reminder readme"
+git push -u origin main
+dots add -u
+dots status
+cd Projects
+la
+cd rust
+la
+v snake
+cd Projects
+cd rust
+la
+v snake
+rustup update
+rustc --version
+rustup update nightly
+rustup --help
+rustup toolchain
+rustup toolchain list
+rustup default nightly
+rustup update
+rustup default stable
+cd Projects/rust
+la
+v snake
+v snake
+v
+rustup default stable
+v
+v
+update
+update
+cd Projects/rust
+la
+v snake
+cd ..
+la
+cd HBV501
+la
+v feedme
+cd .config/nvim
+la
+v .
+git add .
+git commit -m "rust clippy"
+git push -u origin main
+dots add -u
+dots commit -m "nvim"
+dots push origin main
+cd Projects/rust
+la
+cd ..
+la
+cd rust
+la
+cd hello_world
+la
+mv hello_cargo ../
+cd ..
+la
+cd Projects/rust
+la
+rm -rf snake
+rm hello.rs
+rm kattis.rs
+la
+rm *
+la
+rm hello.rs
+la
+la
+cd ..
+la
+rm rust
+rmdir rust
+mkdir rust
+la
+cd rust
+la
+mkdir hello_world
+cd hello_world
+v main.rs
+la
+mkdir hello_cargo
+rmdir hello_cargo
+la
+cargo new hello_cargo
+cd hello_cargo
+la
+cd src
+la
+v main.rs
+la
+cd ..
+la
+cd ..
+la
+cargo new guessing_game
+cd guessing_game
+la
+v .
+cd ..
+la
+cd ..
+la
+cd hello_cargo
+v .
+la
+cd ..
+la
+update
+cd .config/kitty
+v kitty.conf
+cd Projects/rust
+la
+la
+sudo pacman -S font-fira-code
+aurlist
+cd Documents
+v aurlist.txt
+sudo pacman -S ttf-fira-code
+rm -rf ttf-fira-code
+la
+sudo pacman -Rns ttf-fira-code
+yay -S nerd-fonts-fira-code
+sudo pacman -S ttf-font-nerd
+yay -S nerd-fonts-fira-code
+update-fc
+la
+cd Projects/rust
+la
+cd hello_cargo
+la
+cd ..
+la
+cd ..
+la
+cd TOL607
+la
+cd ..
+la
+cd hvassahraun
+la
+cd edr_app
+cd ..
+cd edr_subscriber
+la
+la
+la
+conda-init
+la
+la
+cd Projects/
+la
+cd hvassahraun
+la
+cd edr_stats
+la
+cd tests
+la
+v .
+aurlist
+paclist
+dots add $HOME/.config/starship.toml
+dots commit -m "starship alt"
+dots push origin main
+la
+cd Projects/rust
+la
+cd hello_cargo
+cd $HOME/.config/starship.toml
+v $HOME/.config/starship.toml
+v
+cd .local/cache/nvim/
+la
+v lsp.log
+cd Projects/rust
+la
+v hello_cargo
+v hello_world
+la
+cd hello_world
+la
+mv guessing_game ../
+la
+cd ..
+la
+v guessing_game
+v 
+cd .config/nvim
+la
+git add .
+git commit -m "dockerls"
+git push -u origin main
+v
+top
+cd Projects/rust
+la
+mkdir ownership
+rmdir ownership
+cargo new ownership
+la
+cd ownership
+la
+v .
+la
+cd ..
+la
+cargo new structs
+la
+cd structs
+la
+v .
+cd ..
+la
+cd ..
+mv rust rust_book
+cd rust_book
+la
+git init
+la
+cd guessing_game
+la
+v .gitignore
+cd ..
+la
+v .gitignore
+la
+git remote add origin git@github.com:anjrv/rust_book.git
+git branch -M main
+git add .
+rm -rf guessing_game
+git add .
+la
+v .
+la
+git add .
+git commit -m "book"
+git push -u origin main
+la
+v .
+git add .
+git commit -m "book"
+git push -u origin main
+update
+la
+cd Projects/hvassahraun
+la
+mkdir edr_frontend
+la
+cd edr_frontend
+la
+npx create-next-app nextjs-edr-maps --use-npm --example "https://github.com/vercel/next-learn/tree/master/basics/learn-starter"
+la
+v .
+cd ..
+rm -rf edr_frontend
+npx create-next-app edr_frontend --use-npm --example "https://github.com/vercel/next-learn/tree/master/basics/learn-starter"
+la
+v edr_frontend
+cd Projects/hvassahraun/edr_frontend
+npm run dev
+ cd /home/anjrv
+ clear
+update
+v
+jctl
+cd Projects/rust_book
+la
+v .
+la
+v structs
+update
+npm install -g npm
+sudo npm install -g npm
+update
+update
+sudo pacman -S npm --overwrite '/usr/lib/node_modules/npm/*'
+sudo pacman -Syyu
+update
+cd .config/zsh/zsh-aliases
+v .config/zsh/zsh-aliases
+aurlist
+paclist
+dots add -u
+dots status
+dots commit -m "stuff"
+dots push origin main
+cd .config/nvim
+git status
+cd Projects/rust_book
+la
+v hello_world
+cat .zshenv
+la
+la
+v
+cd .config/zsh
+la
+v .zshrc
+cd $HOME
+la
+rm .zsh_history
+la
+cat .zsh_history
+la
+cd .config/zsh
+la
+v zsh_history
+cd ..
+la
+cd $HOME
+rm .zsh_history
+la
+la
+dots status
+dots rm --cached .zshenv
+dots status
+cd .config/zsh
+la
+dots add $HOME/.config/.zshenv
+dots add $HOME/.config/zsh/.zshenv
+dots add $HOME/.config/zsh/.zshrc
+dots add $HOME/.config/zsh/zsh-exports
+dots add $HOME/.config/zsh/zsh-functions
+dots add $HOME/.config/zsh/zsh-history
+dots add $HOME/.config/zsh/zsh-aliases
+dots status
+dots commit -m "moved zsh"
+dots push origin main
+ls
+cd $HOME
+la
+tldr ln
+sudo pacman -S thunderbird
+cd .config/zsh
+cat zsh-aliases
+update
+npm-fix-conflicts
+update
+sudo pacman -Syyu
+ cd /home/anjrv
+ clear
+cd Projects/hvassahraun/edr_subscriber
+la
+mosquitto
+ssh-hv-local
+mosquitto
+la
+cd Projects
+la
+v mosqitto.conf
+mosquitto -v -c mosquitto.conf
+la
+mv mosqitto.conf mosquitto.conf
+mosquitto -v -c mosquitto.conf
+la
+v mosqitto.conf
+v  mosquitto.conf
+mosquitto -v -c mosquitto.conf
+update
+npm-fix-conflicts
+sudo pacman -Syyu
+update
+git add .
+git add .
+git commit -m "starting tag, larger data chunks and fewer location pings for better battery, some sharedprefs fixes"
+git push -u origin main
+cd ..
+npm run dev
+npm run dev
+git add .
+git commit -m "split documents test"
+git push origin main
+git add .
+git commit -m "split documents test"
+git push origin main
+git add .
+git commit -m "split documents test"
+git push origin main
+cd .config/nvim
+v .
+git add .
+git commit -m "remove virtual text reporting"
+git push origin main
+git add .
+cd ..
+git add .
+git commit -m "split into multiple databases and documents"
+git push origin main
+git add .
+git commit -m "split into multiple databases and documents"
+git push origin main
+exit
+cd Projects/hvassahraun/edr_subscriber
+la
+npm run dev
+la
+v .env
+npm run dev
+la
+v .
+v .
+ssh-hv-local
+cd .config/zsh
+la
+v .zshenv
+cd .config/zsh
+cat .zshenv
+sudo pacman -S libsdl
+strings /lib64/libSDL2-2.0.so.0 | grep SDL_VIDEODRIVER
+cd Projects/hvassahraun/edr_subscriber
+v .
+cd .config/nvim
+v .
+git add .
+git commit -m "rainbow brackets"
+git push origin main
+sudo pacman -S wayland-devel
+sudo pacman -S wmesa-libwayland-egl
+sudo pacman -S mesa-libwayland-egl
+loginctl show-session 3 -p Type
+loginctl show-session 2 -p Type
+loginctl show-session 1 -p Type
+cd .config/zsh
+v .zshenv
+sudo pacman -S sdl
+sudo pacman -S sdl2
+sudo pacman -S libwayland-client
+sudo pacman -S libSDL
+cd .config/nvim
+v .
+v .vimrc
+cd Projects/hvassahraun/edr_subscriber
+l
+la
+v .
+vim .
+v .vimrc
+neofetch
+sudo pacman -S glances
+glances
+sudo pacman -Rns glances
+sudo pacman -S dust
+dust
+sudo dust
+update
+tmux
+tmux
+locate tmux.conf
+v .tmux.conf
+tmux
+la
+tmux
+tmux
+tmux
+tmux
+la
+tmux
+tmux
+tmux
+v .tmux.conf
+tmux source-file ~/.tmux.conf
+v .tm
+v .tmux.conf
+tmux source-file ~/.tmux.conf
+tmux
+tmux source-file ~/.tmux.conf
+tmux
+tmux source-file ~/.tmux.conf
+tmux
+tmux source-file ~/.tmux.conf
+tmux
+v .tmux.conf
+dots add $HOME/.tmux.conf
+dots commit -m "tmux"
+dots push origin main
+update
+sudo pacman -S duf
+duf
+sudo pacman -S procs
+procs
+duf
+dots add -u
+dots commit -m "moved zsh"
+dots p
+dots push origin main
+ cd /home/anjrv
+ clear
+update
+cd Projects/hvassahraun/edr_subscriber
+v .
+v .
+v .
+cd Projects/hvassahraun/edr_subscriber
+v .
+cd Projects/hvassahraun/edr_subscriber
+v .
+cd Projects/hvassahraun/edr_subscriber
+v .
+cd Projects/hvassahraun/edr_subscriber
+v .
+cd Projects/hvassahraun/edr_subscriber
+v .
+cd .config/nvim
+v .
+git add .
+git commit -m "winbar prep"
+git push origin main
+cd Projects/hvassahraun/edr_subscriber
+v .
+xkill
+xeyes
+ssh-hv-local
+cd backyard
+la
+cd src
+la
+mkdir garden
+l
+cd backyard
+cargo run
+cargo run
+cd Projects/hvassahraun/edr_frontend
+cd collections
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cd Projects/rust_book
+git pull origin main
+la
+cargo new backyard --vcs=none
+v backyard
+v backyard
+la
+cd backyard
+la
+ls src
+v .
+la
+cd ..
+cargo new collections --vcs=none
+la
+v collections
+git add .
+git commit -m "collections"
+git push origin main
+update
+cd Projects/la
+cd Projects/
+la
+v TOL607
+cd Projects/
+cd hvassahraun
+v edr_frontend
+v edr_backend
+cd Projects/
+la
+cd HBV501
+la
+v feedme
+cd .config/nvim
+la
+v .
+v .
+v .
+git add .
+git commit -m "formatting"
+git push origin main
+la
+cd Projects/hvassahraun/edr_frontend
+v .
+cd ..
+v edr_backend
+cd Projects/
+la
+cd hvassahraun
+la
+v edr_backend
+v
+v .tmux.conf
+!
+cd Projects/hvassahraun/edr_subscriber
+v .
+cd Projects/hvassahraun/edr_subscriber
+v .
+update
+cd .config/nvim
+git pull origin main
+v .
+git add .
+git commit -m "dap"
+git push origin main
+ssh-hv-local
+ssh-hv-local
+cd Projects/hvassahraun/edr_subscriber
+v .
+v .
+git add .
+git commit -m "switch map for forEach to enable if statements for anomaly collection"
+git push origin main
+ssh-hv-local
+ssh-hv-local
+ssh-hv-local
+v .vimrc
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Documents
+ cd /home/anjrv/Documents/olds
+ cd /home/anjrv/Documents
+ cd /home/anjrv
+v
+cd .config/nvim
+v .
+cd .config/nvim
+v .
+v .
+git add .
+git commit -m "some keymaps"
+git push origin main
+ssh-hv-local
+ssh-hv-local
+update
+la
+ls
+ls
+cd .config/kitty
+v kitty.conf
+cd errors
+la
+cargo run
+cargo run
+cargo run
+ls
+cat hello.txt
+rm hello.txt
+cd Projects/rust_book
+la
+cargo new errors --vcs=none
+v errors
+la
+cd errors
+v .
+v .
+update
+cd errors
+ls
+cd Projects/rust_book
+v errors
+la
+cargo new generics --vcs=none
+cd generics
+v .
+v .
+git add .
+git commit -m "generics and traints 0.1"
+git push origin main
+la
+update
+v .tmux.conf
+cd Projects/rust_book
+git status
+git add .
+git commit -m "generics, traits and errors*"
+git push origin main
+nvim --version
+update
+top
+sudo pacman -S gzip
+sudo pacman -S flamegraph
+yay -S paru
+paru
+cd .config/zsh
+la
+v .zshrc
+paru -R yay
+paru -R yay-git
+update
+update
+paru go
+paru -sS go
+paru -Ss vim
+paru -Si neovim
+paru -Sua
+aurlist
+cd Documents
+cat aurlist.txt
+paclist
+dots add -u
+dots commit -m "stuff"
+dots push origin main
+paru --gendb
+update
+update
+la
+cd Downloads
+la
+v bustools.js
+cd Projects/hvassahraun/edr_backend
+v .
+git pull origin main
+cd Downloads
+la
+v bustools.js
+prettier bustools.js > bustools_f.js
+v bustools_f.js
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Downloads
+cd Projects/h
+cd Projects/
+la
+git clone git@github.com:anjrv/throun_hugbunadar.git
+la
+cd throun_hugbunadar
+la
+cd hotels
+la
+v schema.sql
+v schema.sql
+cd ..
+cd ..
+rm -rf throun_hugbunadar
+la
+cd hvassahraun/edr_sanitycheck
+v .
+cd hvassahraun/edr_sanitycheck
+cd Projects/hvassahraun/edr_sanitycheck
+la
+v .
+v .
+v
+echo $HISTFILE
+tail $HISTFILE
+cd .config/nvim
+v .
+git add .
+git commit -m "load keymaps first"
+git push origin main
+cd $HOME
+cd Projects/
+git clone git@github.com:anjrv/throun_hugbunadar.git
+cd throun_hugbunadar
+v .
+cd $HOME/.config
+la
+cd zsh
+la
+v .zshenv
+v .zshrc
+v
+cd .config/nvim
+la
+git add .
+git commit -m "nvm sql"
+git push origin main
+dots add -u
+dots commit -m "stuff"
+dots push origin main
+ssh-hv-local
+update
+tldr rsync
+rsync -avzher ssh edr@192.168.1.13:/media/backup ~/Projects/hvassahraun/dump
+rsync -r edr@192.168.1.13:/media/backup ~/Projects/hvassahraun/dump
+ssh-hv-local
+cd Projects/
+la
+tldr rsync
+ls
+cd hvassahraun
+la
+cd dump
+la
+mongorestore backup/
+mongo
+cd Projects/
+ls
+cd hvassahraun
+la
+v edr_subscriber
+cd Projects/hvassahraun/edr_subscriber
+v .
+git add .
+git commit -m "fix session to uniquely identify"
+git push origin main
+ssh-hv-local
+cd ..
+npm i
+npm run dev
+npm run dev
+npm run dev
+mongo
+ls
+cd Projects/hvassahraun/edr_backend
+npm run dev
+cd Projects/
+la
+rm -rf throun_hugbunadar
+la
+cd hvassahraun
+la
+v edr_backend
+cd edr_backend
+la
+cd src
+la
+mkdir validators
+cd ..
+v .
+la
+cd ..
+cd edr_subscriber
+la
+v .env
+v .
+cd ..
+cd edr_backend
+la
+v .
+git add .
+git commit -m "day and session listing, session fix required on subscriber for unique identification"
+git push origin main
+cd Projects/hvassahraun/edr_subscriber
+v .
+cd Projects/hvassahraun/edr_subscriber
+v .
+jctl
+echo $XDG_SESSION_TYPE
+update
+cd ..
+npm run dev
+cd Projects/hvassahraun/
+v edr_backend
+git add .
+la
+cd edr_backend
+git add .
+git commit -m "aggregate into sessions"
+git push origin main
+update
+npm-fix-conflicts
+sudo pacman -Syu
+update
+sudo pacman -S helix
+helix
+cd lifetimes
+cargo run
+ssh-hv-local
+cd adder
+cargo test
+cargo test
+cargo test
+cargo test
+cargo test
+cargo test
+cargo test
+cargo test
+cd ..
+npm run dev
+git add .
+git commit -m "ensure connection gets closed"
+git push origin main
+cd Projects/rust_book
+v .
+la
+v generics
+v generics
+cargo new lifetimes --vcs=none
+v lifetimes
+cargo new adder --vcs=none --lib
+la
+v adder
+git add .
+git commit -m "tests, lifetimes"
+git push origin main
+cd ..
+cd hvassahraun
+v edr_backend
+cd Projects/hvassahraun/
+v edr_subscriber
+cd edr_subscriber
+git add .
+git commit -m "typo"
+git push origin main
+v .
+v
+cd Projects/hvassahraun/
+v edr_subscriber
+cd .config/nvim
+v .
+git add .
+git commit -m "lualine arrows"
+git push origin main
+ls
+ls workspace
+cd Projects/rust_book
+la
+v lifetimes
+cd ..
+la
+v hvassahraun
+cd hvassahraun
+la
+v edr_sanitycheck
+v edr_sanitycheck
+cd Projects/hvassahraun/
+la
+v edr_sanitycheck
+cd Projects/hvassahraun/
+cd ..
+cd hvassahraun
+v edr_sanitycheck
+cd .config/nvim
+v .
+git add .
+git commit -m "leave dap alone for now"
+git push origin main
+cd Projects/hvassahraun/
+v edr_sanitycheck
+cd .config/nvim
+v .
+git add .
+git commit -m "leave dap alone for now"
+git p
+git push origin main
+paru -S mold
+cd .config/pipewire
+la
+cat pipewire.conf
+cd edr_backend
+update
+cd .local/bin
+la
+v slowmouse
+cd .config/zsh
+la
+v zsh-functions
+v zsh-functions
+la
+v .zshenv
+v .zshrc
+update
+update
+reboot
+cd Projects/hvassahraun/
+la
+rm -rf dump
+ssh-hv-local
+mongo
+rsync -r edr@192.168.1.13:/media/backup ~/Projects/hvassahraun/dump
+ls
+cd Projects/hvassahraun/
+la
+cd dump
+la
+mongorestore backup/
+ssh-hv-local
+git stash
+git add .
+git commit -m "wrap edr calculation in speed check"
+git push origin main
+cd ..
+npm run dev
+ cd /home/anjrv/Downloads/
+ clear
+cd ..
+npm run dev
+cd Projects/hvassahraun/
+v edr_backend
+cd edr_backend
+npm i --save csv
+v .
+git add .
+git commit -m "core functionality done, TODO: testing with larger data and some commenting"
+git push origin main
+mongo
+exit
+cd Projects/hvassahraun/edr_backend
+v .
+cd ..
+npm run dev
+git add .
+git commit -m "core functionality done, TODO: testing with larger data and some commenting"
+git push origin main
+update
+ssh-hv-local
+ssh-pi-local
+top
+systemctl status mongod
+systemctl status mongodb
+systemctl disable mongodb
+systemctl status mongodb
+systemctl stop mongodb
+top
+cat
+ls
+la
+cat .yarnrc
+cat .yarnrc
+bat --help
+bat --help | grep theme
+bat --list-themes
+bat --theme=Dracula .yarnrc
+cat .yarnrc
+la
+bat --help
+bat --list-themes
+cd .config/zsh
+v zsh-aliases
+gd
+gc --help
+rg --files
+files
+rg --files .
+cd Projects/hvassahraun/edr_backend
+g
+sudo pacman -S diffsofancy
+paru -S diff-so-fancy
+cd .config/zsh
+v zsh-aliases
+cd Projects/hvassahraun/edr_backend
+gd
+gd HEAD
+ls
+cd src
+la
+gd HEAD app.js
+cd api
+la
+gd HEAD sessions.js
+gd HEAD index.json
+cd .config/nvim
+v .
+git add .
+git commit -m "vt"
+git push origin main
+cd $HOME
+dots add -u
+dots commit -m "stuff"
+dots push origin main
+sudo pacman -S rust-language-server
+cd Projects/rust_book
+la
+v .adder
+v adder
+v adder
+v adder
+cd Projects/hvassahraun/edr_backend
+v .
+cd .config/nvim
+cd $HOME/.config/nvim
+la
+v .
+cd ..
+npm run dev
+cd Projects/hvassahraun/edr_backend
+gd
+v .
+cd Projects/rust_book
+la
+v structs
+cd .config/nvim
+v .
+cd Projects/rust_book
+v structs
+la
+v structs
+v structs
+cd .config/nvim
+v .
+git add .
+git commit -m "set autosave for rust files"
+git push origin main
+npm run dev
+cd ..
+npm run dev
+cd Projects/hvassahraun/edr_backend
+v .
+v .
+cd Projects/TOL607
+v .
+cd Projects/rust_book
+la
+v structs
+cd .config/nvim
+la
+v .
+git add .
+git commit -m "drop rust codelens for now"
+git push origin main
+cd .config/nvim
+la
+v .
+git add .
+git commit -m "comment out dap keybinds for now"
+git push origin main
+paclist
+aurlist
+dots add -u
+dots commit -m "stuff"
+dots push origin main
+update
+sudo pacman -Syyu
+update
+pg mch
+update
+reboot
+killall steam
+zsh-update-plugins
+systemctl status mongodb
+top
+rsync -avzhe ssh edr@192.168.1.13:/media/lisbon.csv ~/Projects/hvassahraun/edr_stats
+ls
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Projects
+ cd /home/anjrv/Projects/hvassahraun
+ cd /home/anjrv/Projects/hvassahraun/edr_stats
+update
+npm-fix-conflicts
+update
+cd .config/nvim
+v .
+v .
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Projects
+ cd /home/anjrv/Projects/hvassahraun
+ cd /home/anjrv/Projects/hvassahraun/edr_stats
+ cd /home/anjrv/Projects/hvassahraun/edr_app/app/build/outputs/apk/debug
+git add .
+git commit -m "guarantee that identifiers do not contain underscores"
+git push origin main
+rsync -avzhe ssh edr@192.168.1.13:/media/lisbon.csv ~/Projects/hvassahraun/edr_stats
+ls
+ssh-hv-local
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Projects
+ cd /home/anjrv/Projects/hvassahraun
+ cd /home/anjrv/Projects/hvassahraun/edr_stats
+ cd /home/anjrv
+ clear
+ cd /run/user/1000/kio-fuse-WbCNlt/smb/192.168.1.6/backup
+ cd /run/user/1000/kio-fuse-WbCNlt/smb/192.168.1.6/backup/jaan
+ cd /run/user/1000/kio-fuse-WbCNlt/smb/192.168.1.6/backup/jaan/hvassahraun
+ cd /run/user/1000/kio-fuse-WbCNlt/smb/192.168.1.6/backup/jaan/hvassahraun/edr_stats
+cd Projects/hvassahraun/edr_backend
+v .env
+cd ..
+npm run dev
+cd Projects/hvassahraun/edr_backend
+npm i
+npm run dev
+v .
+git add .
+git commit -m "cleanup unused file methods"
+git push origin main
+v package.json
+git add .
+git commit -m "cleanup unused file methods"
+ssh-hv-local
+ssh-hv-local
+top
+cd Projects/hvassahraun/edr_backend
+v .
+cd Projects/hvassahraun/edr_backend
+v .
+la
+v .
+cd ..
+cd ..
+cd rust_book
+la
+v structs
+cd Projects/hvassahraun/edr_backend
+v .
+cd Projects/hvassahraun/edr_backend
+v .
+cd .config/nvim
+v .
+v .
+git add .
+git commit -m "lualine theme"
+git push origin main
+v .
+git add .
+git commit -m "tree changes"
+git push origin main
+aurlist
+paclist
+dots add -u
+dots commit -m "stuff"
+dots push origin main
+update
+paru -S mesa
+ssh-hv-local
+ssh-hv-local
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Downloads
+cd .config/nvim
+v .
+paru -S thunderbird
+paru -S thunderbird-bin
+ cd /home/anjrv/Projects/skalholt/backend
+ clear
+v .
+kitty .
+ cd /home/anjrv/Projects/skalholt/backend
+ clear
+nohup nvim . &
+nvim
+nohup kitty . &
+cd Projects
+la
+mkdir dotnet
+cd dotnet
+mkdir webapi
+cd webapi
+dotnet new mvc -au None
+dotnet build
+dotnet run
+paru -S aspnet-runtime
+dotnet run
+paru -S dotnet-runtime
+dotnet --list-sdks
+paru -S dotnet-sdk
+paru -S dotnet-runtime
+la
+cd ..
+la
+cd ..
+la
+rm -rf dotnet
+la
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Downloads
+ cd /home/anjrv/Projects/hvassahraun/edr_app/app/build/outputs/bundle/debug
+ clear
+ cd /home/anjrv/Desktop
+ clear
+ cd /home/anjrv/Projects/hvassahraun/edr_app/app/build/outputs/bundle/debug
+ cd '/home/anjrv/Projects/hvassahraun/edr_app/app/build/outputs/bundle/debug (deleted)'
+ cd /home/anjrv/Projects/hvassahraun/edr_app/app/debug
+jarsigner -verify app-debug.aab
+ cd /home/anjrv/Downloads/
+ cd /home/anjrv/Projects/hvassahraun/edr_app/app/debug
+jarsigner -verify app-debug.aab
+ cd /home/anjrv/Projects/hvassahraun/edr_app/app/release
+ clear
+jarsigner -verify app-release.aab
+cd Projects
+la
+mkdir keystore
+cd keystore
+pwd
+ cd /home/anjrv/Projects/hvassahraun/edr_app/app/build/outputs/apk/debug
+ clear
+ cd /home/anjrv
+ clear
+cd Projects/hvassahraun/edr_backend
+la
+fzf
+cd ..
+cd edr_app
+fzf
+cd Projects/hvassahraun/edr_app
+la
+cd app
+la
+cd debug
+la
+rm app-debug.aab
+la
+cd ..
+la
+cd release
+la
+rm app-release.aab
+la
+cd ..
+la
+cd Projects/hvassahraun/edr_app
+la
+v .gitignore
+cd Projects/hvassahraun/edr_app
+cd app
+la
+v .gitignore
+rm .gitignore
+ cd /home/anjrv/Projects/hvassahraun/edr_app/app/build/outputs/apk/debug
+ clear
+cd Projects/hvassahraun/edr_app
+cd
+la
+cd Projects/hvassahraun/edr_app
+la
+cd src
+la
+cd app
+la
+cd src
+la
+v .gitignore
+top
+ cd /home/anjrv
+ clear
+cd Projects/hvassahraun/edr_app
+cd app
+cd src
+la
+v .gitignore
+cd Projects/hvassahraun/edr_app
+cd src
+la
+cd ap
+cd app
+la
+cd src
+la
+v .gitignore
+v .gitignore
+ls
+la
+cd ..
+la
+cd ..
+ la
+v .gitignore
+cd Projects/hvassahraun/edr_app
+la
+cd app
+la
+ls build
+cd build
+cd outputs
+ls
+cd apk
+la
+cd debug
+la
+pwd
+cd Projects/hvassahraun/edr_app
+la
+cd app
+la
+cd src
+la
+v .gitignore
+la
+git rm -r --cached build/
+la
+la
+cd ..
+la
+cd src
+la
+v .
+v .gitignore
+v .gitignore
+cd ..
+la
+v .gitignore
+git rm -r --cached build/
+git add .
+git status
+git commit -m "debug build"
+git push origin main
+la
+ls build
+ls build/outputs
+ls build/outputs/apk
+ls build/outputs/apk/debug
+v .gitignore
+git add .
+git status
+v .gitignore
+git add .
+git status
+git commit -m "???"
+git push origin main
+cd ..
+la
+v .gitignore
+cd Projects/hvassahraun/edr_app
+cd build
+la
+cd app
+cd build
+la
+cd outputs
+la
+cd apk
+la
+cd debug
+la
+cd Projects/hvassahraun/edr_app
+la
+v .gitignore
+git add .
+git status
+git reset
+v .gitignore
+git add .
+git status
+la
+v .gitignore
+git reset
+v .gitignore
+git add .
+git status
+la
+v .gitignore
+git reset
+git add .
+git status
+git commit -m "alright its impossible"
+git push origin main
+ cd /home/anjrv/Projects/hvassahraun/edr_app/app/build/outputs/apk/debug
+ clear
+pwd
+ cd /home/anjrv/Projects/hvassahraun/edr_app/app/build/outputs/apk/debug
+ clear
+ cd /home/anjrv/Projects/hvassahraun/edr_app/app/build/outputs/apk/debug
+ clear
+git stash
+git add .
+git commit -m "do not calculate edr for first 100 cycles while std is volatile"
+git push origin main
+git add .
+git add .
+git commit -m "add debug build to repo"
+git push origin main
+git add .
+git commit -m "add debug build to repo"
+git reset
+la
+git add .
+git add .
+git status
+git add .
+git status
+git add .
+git status
+cd app
+cd src
+la
+git add .
+git status
+git commit -m "add debug build to repo"
+git push origin main
+git rm -r --cached build
+git rm -r --cached build/
+ls
+ls -la
+git rm -r --cached .
+git add .
+git status
+git commit --amend --no-edit
+git push origin main
+git push --force-with-lease
+ls
+rm .gitignore
+cd ..
+cd ..
+la
+git add .
+git status
+cd app
+la
+v .gitignore
+rm .gitignore
+cd ..
+la
+v .gitignore
+git add .
+git status
+v .gitignore
+git reset
+v .gitignore
+git add .
+git status
+git commit -m " FUCK "
+git push origin main
+git add .
+git status
+git reset
+ cd /home/anjrv
+ clear
+cd Projects/rust_book
+git ls-files
+update
+cd Projects/hvassahraun/edr_stats
+la
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Projects
+ cd /home/anjrv/Projects/hvassahraun
+ cd /home/anjrv/Projects/hvassahraun/edr_app
+ cd /home/anjrv/Projects/hvassahraun
+ cd /home/anjrv/Projects/hvassahraun/edr_backend
+ cd /home/anjrv/Projects/hvassahraun
+ cd /home/anjrv/Projects/hvassahraun/edr_stats
+ cd /home/anjrv/Projects/hvassahraun/edr_stats/tests
+ cd /home/anjrv
+ clear
+ cd /run/user/1000/kio-fuse-zcLnbZ/smb/192.168.1.6/backup
+ cd /run/user/1000/kio-fuse-zcLnbZ/smb/192.168.1.6/backup/jaan
+ cd /run/user/1000/kio-fuse-zcLnbZ/smb/192.168.1.6/backup/jaan/hvassahraun
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Projects
+ cd /home/anjrv/Projects/hvassahraun
+ cd /home/anjrv/Projects/hvassahraun/edr_stats
+ cd /home/anjrv/Projects/hvassahraun/edr_stats/tests
+ cd /home/anjrv
+ clear
+ cd /run/user/1000/kio-fuse-zcLnbZ/smb/192.168.1.6/backup
+ cd /run/user/1000/kio-fuse-zcLnbZ/smb/192.168.1.6/backup/jaan
+ cd /run/user/1000/kio-fuse-zcLnbZ/smb/192.168.1.6/backup
+ cd /run/user/1000/kio-fuse-zcLnbZ/smb/192.168.1.6/backup/kino
+ cd /run/user/1000/kio-fuse-zcLnbZ/smb/192.168.1.6/backup/kino/seeriad
+ cd '/run/user/1000/kio-fuse-zcLnbZ/smb/192.168.1.6/backup/kino/seeriad/Stranger Things'
+ cd '/run/user/1000/kio-fuse-zcLnbZ/smb/192.168.1.6/backup/kino/seeriad/Stranger Things/Season 4'
+ cd /home/anjrv/Downloads/Stranger.Things.S04.WEBRip.x265-ION265
+ cd '/run/user/1000/kio-fuse-zcLnbZ/smb/192.168.1.6/backup/kino/seeriad/Stranger Things/Season 4'
+ cd /home/anjrv/Downloads/Stranger.Things.S04.WEBRip.x265-ION265
+ cd /home/anjrv/Downloads
+ssh-hv-local
+mongo
+ssh-hv-local
+update
+cd Projects/hvassahraun/edr_backend
+ka
+la
+v .
+git add .
+git commit -m "log internal errors"
+git push origin main
+cd Projects/hvassahraun/edr_subscriber
+v .
+cd .config/nvim
+v .
+cd Projects/rust_book
+cd $HOME/Projects
+cd rust_book
+la
+v .
+ssh-hv-local
+ranger
+update
+npm-fix-conflicts
+update
+v
+update
+cd Projects/hvassahraun
+la
+rm -rf edr_frontend
+la
+cd dump
+la
+rm -rf backend
+la
+rm -rf backup
+la
+cd ..
+la
+rmdir dump
+la
+cd ..
+cd .config/nvim
+v .
+cd Projects/hvassahraun
+cd ..
+la
+cd test
+la
+npx create-next-app edr_frontend --use-npm --example "https://github.com/vercel/next-learn/tree/master/basics/learn-starter"
+la
+cd edr_frontend
+v .
+cd Projects/hvassahraun
+la
+mkdir edr_frontend
+cd edr_frontend
+yarn create next-app -e https://github.com/colbyfayock/next-leaflet-starter
+v .
+cd edr_frontend
+la
+yarn dev
+cd $HOME
+la
+cd Projects/hvassahraun/edr_frontend
+la
+yarn dev
+cd ..
+la
+cd edr_frontend
+npm start
+la
+cd Projects/
+la
+cd Projects/
+cd hvassahraun
+cd edr_frontend
+la
+cd ..
+la
+mv edr_frontend tmp
+ls
+cd tmp
+la
+mv edr_frontend ../
+cd ..
+la
+rmdir tmp
+la
+cd edr_frontend
+v .
+cd ..
+rm -rf edr_frontend
+la
+npx create-react-app edr_frontend
+la
+npm uninstall -g create-react-app
+sudo npm uninstall -g create-react-app
+la
+npx create-react-app edr_frontend
+npm install react-leaflet leaflet
+la
+cd edr_frontend
+npm install react-leaflet leaflet
+la
+v package.json
+la
+npm start
+la
+v .
+la
+v .gitignore
+npm start
+la
+git remote add origin https://github.com/anjrv/edr_frontend.git
+git branch -M main
+git add .
+git status
+git commit -m "initial somethingorother"
+git push -u origin main
+git remote add origin git@github.com:anjrv/edr_frontend.git
+git remote set-url origin git@github.com:anjrv/edr_frontend.git
+git push -u origin main
+ssh-hv-local
+update
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Pictures
+ cd /home/anjrv
+ clear
+ cd /home/anjrv
+ clear
+ranger
+cd .config/ranger
+la
+v scope.sh
+update
+r
+ clear
+ranger
+ls /
+ls /home/timeshift
+cd /home/timeshift
+la
+cd snapshots
+la
+cd ..
+ncdu .
+cd $HOME
+ranger
+jctl
+update
+cd Projects/hvassahraun/edr_app
+la
+ranger .
+ranger .
+npm start
+cd Projects/hvassahraun/edr_frontend
+v .
+git add .
+git commit -m "path samples"
+git push origin main
+cd ..
+v edr_backend
+ssh-hv-local
+update
+cd Projects/hvassahraun/edr_frontend
+npm start
+ cd /home/anjrv
+ clear
+update
+npm-fix-conflicts
+update
+tree /
+neofetch
+update
+git status
+git add .
+git commit -m "path samples"
+npm start
+npm start
+cd Projects/hvassahraun/edr_frontend
+v .
+git add .
+git commit -m "removed some bloat"
+git push origin main
+cd ..
+cd edr_backend
+la
+v .
+ssh-hv-local
+cd .config/nvim
+v .
+cd Projects/hvassahraun/edr_backend
+v .
+git add .
+git commit -m "remove unnecessary db tag"
+git push origin main
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Projects
+ cd /home/anjrv/Projects/hvassahraun
+ cd /home/anjrv/Projects/hvassahraun/edr_stats
+ cd /home/anjrv/Projects/hvassahraun/edr_stats/tests
+cd ..
+npm run dev
+npm run dev
+npm run dev
+ cd /home/anjrv/Downloads/
+ clear
+cd ..
+npm run dev
+npm run dev
+npm run dev
+cd Projects/hvassahraun/edr_backend
+v .
+v .
+v .
+git add .
+git commit -m "create connection on app startup and share through requests"
+git push origin main
+systemctl start mongodb
+systemctl status mongodb
+systemctl stop mongodb
+systemctl status mongodb
+cd Projects/hvassahraun/edr_subscriber
+v .
+git add .
+git commit -m "log stack traces"
+git push origin main
+ssh-hv-local
+npm start
+cd .config/nvim
+la
+cd plugin
+la
+cd ..
+la
+sudo updatedb
+locate hexokinase
+cd /home/anjrv/.local/share/nvim
+la
+cd site
+la
+cd pack
+la
+cd packer
+la
+cd opt
+la
+cd ..
+cd start
+la
+cd ..
+cd opt
+la
+cd vim-hexokinase
+la
+make hexokinase
+cd .config/nvim
+v .
+ cd /home/anjrv
+ clear
+ cd /run/user/1000/kio-fuse-NmKGqE/smb/192.168.1.6/backup
+cd Projects/h\ 
+cd Projects
+la
+cd test
+la
+v edr_frontend
+npm start
+cd Projects/hvassahraun/edr_frontend
+la
+v .
+v .
+v .
+ssh-hv-local
+update
+reboot
+ssh-hv-local
+cd .config/nvim
+git add .
+git commit -m "hexokinase"
+git push origin main
+cd Projects/hvassahraun/edr_frontend
+npm start
+cd Projects/hvassahraun/edr_frontend
+v .
+git add .
+git commit -m "tableau colors for anomalies"
+git push origin main
+echo $XDG_SESSION_TYPE
+top
+reboot
+jctl
+ cd /home/anjrv/Projects/hvassahraun/edr_app/app/build/outputs/apk/debug
+ clear
+ cd /home/anjrv
+ clear
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Projects
+ cd /home/anjrv/Projects/hvassahraun
+ cd /home/anjrv/Projects/hvassahraun/edr_app
+ cd /home/anjrv/Projects/hvassahraun/edr_app/app
+ cd /home/anjrv/Projects/hvassahraun/edr_app/app/build
+ cd /home/anjrv/Projects/hvassahraun/edr_app/app/build/outputs
+ cd /home/anjrv/Projects/hvassahraun/edr_app/app/build/outputs/apk
+ cd /home/anjrv/Projects/hvassahraun/edr_app/app/build/outputs/apk/debug
+update
+update
+pactl list sources
+wpctl
+wpctl status
+wpctl
+wpctl set-default --help
+wpctl set-default 82
+wpctl status
+wpctl status
+update
+npm-fix-conflicts
+update
+update
+cd .config/zsh
+la
+v .zshrc
+nvm-init
+v zsh-aliases
+cd .config/nvim
+v .
+nvm-init
+sudo pacman -S compdef
+paru -S nvm
+la
+source /usr/share/nvm/init-nvm.sh
+compinit
+source /usr/share/nvm/init-nvm.sh
+nvm --help
+nvm use --lts
+cd .config/nvim
+v .
+cd Projects/hvassahraun/edr_frontend
+v .
+cd .config/nvim
+v .
+v .
+v .
+git add .
+git commit -m "copilot, sort of"
+git push origin main
+update
+nvm-init
+compinit
+nvm-init
+cd .config/zsh
+v zsh-aliases
+nvm-init
+dots add -u
+dots commit -m "stuff"
+dots push origin main
+cd .config/zsh
+v .
+dots add -u
+dots commit -m "stuff"
+dots push origin main
+wpctl status
+paru -S webcord
+sudo pacman -S typescript
+npm i -g npm
+sudo npm i -g npm
+sudo pacman -S typescript
+v .npmrc
+sudo pacman -S typescript
+sudo pacman -S typescript
+list -g
+npm list -g
+sudo npm list -g
+npm i -g typescript
+paru -S webcord
+npm uninstall -g typescript
+paru -S webcord
+npm i -g typescript
+ls
+la
+cd lib
+la
+cd ..
+la
+cd .config/zsh
+v zsh-aliases
+sudo npm list -g
+sudo npm list -g
+sudo npm list -g
+v .npmrc
+npm list -g
+sudo npm list -g
+sudo pacman -S node-gyp nodejs-nopt semver
+sudo npm list -g
+sudo pacman -S typescript
+npm uninstall -g corepack javascript-typescript-langserver neovim node-gyp nopt npm-check-updates pyright semver typescript-language-server typescript vscode-langservers-extracted yarn
+npm uninstall -g yarn
+npm remove -g yarn
+sudo npm uninstall -g corepack javascript-typescript-langserver neovim node-gyp nopt npm-check-updates pyright semver typescript-language-server typescript vscode-langservers-extracted yarn
+npm i -g corepack javascript-typescript-langserver neovim node-gyp nopt npm-check-updates pyright semver typescript-language-server vscode-langservers-extracted yarn
+paru -S webcord
+npm list -g
+cd Projects/hvassahraun/edr_frontend
+v .
+update
+update
+paru -Rns webcord
+update
+cd Projects/hvassahraun/edr_frontend
+v .
+cd .config/nvim
+v .
+ cd /home/anjrv
+ clear
+ cd /run/user/1000/kio-fuse-TAYkQO/smb/192.168.1.6/backup
+ cd /run/user/1000/kio-fuse-TAYkQO/smb/192.168.1.6/backup/kino
+ cd /run/user/1000/kio-fuse-TAYkQO/smb/192.168.1.6/backup/kino/seeriad
+ cd '/run/user/1000/kio-fuse-TAYkQO/smb/192.168.1.6/backup/kino/seeriad/The Boys'
+ cd /run/user/1000/kio-fuse-TAYkQO/smb/192.168.1.6/backup/kino/seeriad
+ncdu /
+ncdu /home
+ cd /home/anjrv
+ clear
+ cd /run/user/1000/kio-fuse-TAYkQO/smb/192.168.1.6/backup
+ cd /run/user/1000/kio-fuse-TAYkQO/smb/192.168.1.6/backup/kino
+ cd /home/anjrv
+ clear
+ cd /run/user/1000/kio-fuse-TAYkQO/smb/192.168.1.6/backup
+ cd /home/anjrv
+ clear
+ cd '/home/anjrv/Downloads/Angel Complete Series Season 1,2,3,4,5 + Extras, Subs'
+ cd '/home/anjrv/Downloads/Angel Complete Series Season 1,2,3,4,5 + Extras, Subs/Extras'
+ cd '/home/anjrv/Downloads/Angel Complete Series Season 1,2,3,4,5 + Extras, Subs'
+ cd /home/anjrv
+ cd /home/anjrv
+ clear
+ cd /run/user/1000/kio-fuse-TAYkQO/smb/192.168.1.6/backup
+ cd /run/user/1000/kio-fuse-TAYkQO/smb/192.168.1.6/backup/jaan
+ cd /run/user/1000/kio-fuse-TAYkQO/smb/192.168.1.6/backup
+ cd /run/user/1000/kio-fuse-TAYkQO/smb/192.168.1.6/backup/kino
+ cd /run/user/1000/kio-fuse-TAYkQO/smb/192.168.1.6/backup/kino/seeriad
+ cd /run/user/1000/kio-fuse-TAYkQO/smb/192.168.1.6/backup/kino/seeriad/Loki
+ cd /run/user/1000/kio-fuse-TAYkQO/smb/192.168.1.6/backup/kino/seeriad
+ cd /run/user/1000/kio-fuse-TAYkQO/smb/192.168.1.6/backup/kino/seeriad/Psych
+ cd /run/user/1000/kio-fuse-TAYkQO/smb/192.168.1.6/backup/kino/seeriad
+ cd '/run/user/1000/kio-fuse-TAYkQO/smb/192.168.1.6/backup/kino/seeriad/The Boys'
+update
+update
+flatpak list
+flatpak remove org.kde.Platform
+flatpak remove stremio
+flatpak remove org.kde.Platform
+flatpak list
+flatpak uninstall --unused
+update
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Projects
+ cd /home/anjrv/Projects/hvassahraun
+ cd /home/anjrv/Projects/hvassahraun/edr_stats
+update
+cat history
+ssh-hv-local
+ssh-hv-local
+rsync -avzhe ssh edr@192.168.1.13:/media/aptest.csv ~/Projects/hvassahraun/edr_stats
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Downloads
+ cd /home/anjrv/Downloads
+ clear
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Downloads
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Downloads
+ cd /home/anjrv/Downloads
+ clear
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Downloads
+ex OneDrive_2022-07-11.zip
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Downloads
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Downloads
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Projects
+ cd /home/anjrv/Projects/hvassahraun
+ cd /home/anjrv/Projects/hvassahraun/python
+pip install --user simplekml
+cd Projects/hvassahraun/
+la
+v python
+v python
+v python
+pip install --user pyulog
+pip install --user pip
+python -m pip install --upgrade pip
+pip install --user pyulog
+cd Projects/TOL607
+la
+v toflur.c
+la
+v vittu_betur.cpp
+ssh-hv-local
+git add .
+git commit -m "variable sliding window sizes, continuous rms calculation, moved MQTT context to backlog service instead of application context"
+git push origin main
+cd Projects/hvassahraun/python
+v .
+la
+ cd /home/anjrv
+ clear
+la
+la
+la
+ls
+cd .config/kitty
+la
+v kitty.conf
+la
+ cd /home/anjrv
+ clear
+ cd /home/anjrv
+ clear
+update
+sudo pacman -S mesa wayland kde
+sudo pacman -S linux mesa wayland kwin-wayland
+sudo pacman -S linux mesa wayland kwin
+neofetch
+sudo pacman -S libreoffice-fresh
+sudo pacman -S neovim
+sudo pacman -S steam
+sudo pacman -S gamescope
+cd Projects/hvassahraun/edr_frontend
+v .
+cd Projects/hvassahraun/edr_frontend
+v .
+sudo pacman -S python-pillow
+cd Projects
+la
+cd tmp
+la
+cd ..
+update
+ cd /home/anjrv
+ clear
+ cd /home/anjrv
+ clear
+ cd /home/anjrv
+ clear
+ cd /home/anjrv
+ clear
+update
+reboot
+ssh-hv-local
+cd Projects/hvassahraun/edr_frontend
+la
+cd node_modules
+la
+cd react-calendar
+la
+cd dist
+la
+v Calendar.css
+cd Projects
+la
+cd hvassahraun
+la
+v edr_frontend
+npm i react-calendar
+npm start
+npm install date-fns
+npm start
+git add .
+git commit -m "implemented selection calendar, TODO: Session color grading, Map home button"
+git push origin main
+ssh-hv-local
+cd Projects
+cd edr_frontend
+cd hvassahraun
+cd edr_frontend
+v .
+npm start
+ssh-hv-local
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Downloads
+ cd /home/anjrv
+ cd /run/user/1000/kio-fuse-NYBdtj/smb/192.168.1.6/backup
+ cd /run/user/1000/kio-fuse-NYBdtj/smb/192.168.1.6/backup/jaan
+ cd /run/user/1000/kio-fuse-NYBdtj/smb/192.168.1.6/backup/jaan/application
+ssh-hv-local
+cd Projects/hvassahraun/edr_frontend
+v .
+npm start
+git stash
+ssh-hv-local
+update
+ cd /home/anjrv
+ clear
+ cd /run/user/1000/kio-fuse-NYBdtj/smb/192.168.1.6/backup
+ cd /run/user/1000/kio-fuse-NYBdtj/smb/192.168.1.6/backup/kino
+ cd /run/user/1000/kio-fuse-NYBdtj/smb/192.168.1.6/backup/kino/seeriad
+ cd '/run/user/1000/kio-fuse-NYBdtj/smb/192.168.1.6/backup/kino/seeriad/Stranger Things'
+ cd '/run/user/1000/kio-fuse-NYBdtj/smb/192.168.1.6/backup/kino/seeriad/Stranger Things/Season 4'
+sudo pacman -S thunderbird
+pacman -Ss thunderbird
+paru -S thunderbird-bin
+cd Projects/hvassahraun/edr_frontend
+v .
+cd $HOME/.config/nvim
+v .
+R
+cd $HOME/.config/nvim
+v .
+cd Projects/hvassahraun/edr_stats
+la
+v tests
+update
+ssh-hv-local
+cd Projects/hvassahraun/edr_frontend
+npm start
+systemctl start mongodb
+systemctl stop mongodb
+cd Projects/hvassahraun/edr_backend
+v .
+cd ..
+npm run dev
+git add .
+git commit -m "remove client close on pipe"
+git push origin main
+pwd
+cd Projects
+pwd
+update
+styler
+sudo pacman -S styler
+R
+cd Projects
+cd hvassahraun
+cd edr_stats
+la
+v tests
+sudo pacman -S r-styler
+paru -S r-styler
+cd .config/nvim
+v .
+git add .
+git commit -m "r-styler for null-ls .rmd formatting"
+git push origin main
+aurlist
+paclist
+dots add -u
+dots commit -m "stuff"
+dots push origin main
+cd Projects/hvassahraun/edr_stats
+la
+v tests
+cd .config/nvim
+v .
+cd Projects/hvassahraun/edr_stats
+v tests
+ssh-hv-local
+cd Projects/hvassahraun/edr_backend
+la
+v .
+cd ..
+v edr_subscriber
+cd edr_subscriber
+git add .
+git commit -m "add weather data for batch"
+git push origin main
+cd ..
+la
+v edr_backend
+cd edr_backend
+git add .
+git commit -m "add in wind data columns"
+git push origin main
+cd Projects/hvassahraun/edr_subscriber
+v .
+ssh-hv-local
+ssh-hv-local
+cd Projects/hvassahraun/edr_subscriber
+v .
+cd ..
+git add .
+git commit -m "wops"
+git push origin main
+git add .
+git commit -m "wops"
+git push origin main
+git add .
+git commit -m "wops"
+git push origin main
+\
+git add .
+git commit -m "wops"
+git push origin main
+cd Projects/hvassahraun/
+mkdir weather_test
+cd weather_test
+npm init
+la
+npm init -y
+la
+v package.json
+v app.js
+la
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Projects
+ cd /home/anjrv/Projects/hvassahraun
+ cd /home/anjrv/Projects/hvassahraun/edr_stats
+ cd /home/anjrv/Projects/hvassahraun/edr_stats/tests
+ cd /home/anjrv
+ clear
+ cd /run/user/1000/kio-fuse-zlClBG/smb/192.168.1.6/backup
+ cd /run/user/1000/kio-fuse-zlClBG/smb/192.168.1.6/backup/jaan
+ cd /run/user/1000/kio-fuse-zlClBG/smb/192.168.1.6/backup/jaan/hvassahraun
+update
+rustup self upgrade-data
+cd Projects/hvassahraun/edr_subscriber
+v .
+cd ownership
+cargo run
+cd Projects/rust_book
+la
+v ownership
+ssh-hv-local
+speedtest
+update
+speedtest
+ssh-hv-local
+top
+top
+ssh-hv-local
+cd Projects/hvassahraun/edr_subscriber
+v .
+cd Projects/hvassahraun/edr_subscriber
+v .
+update
+neofetch
+ cd /home/anjrv/Projects/hvassahraun/edr_app/app/build/outputs/apk/debug
+ clear
+git add .
+git commit -m "estimate speed from lon/lat to avoid nil m/s values from location"
+git push origin main
+cd Downloads
+ls
+rm thunderbird-102.0.2.tar.bz2
+la
+lsblk
+pwd
+sudo dd if=/home/anjrv/Downloads/pop-os_22.04_amd64_intel_10.iso of=/dev/sda bs=1M status=progress
+umount /dev/sda*
+sudo lsblk
+sudo mkfs.vfat /dev/sda
+sudo mkfs.vfat /dev/sda -I
+ls
+mv  pop-os_22.04_amd64_intel_10.iso pop-os.iso
+ls
+sudo dd if=/home/anjrv/Downloads/pop-os.iso of=/dev/sda bs=1M status=progress
+lsblk
+paru -S balena-etcher
+paru -S etcher-bin
+sudo pacman -S etcher
+cd Downloads
+la
+rm pop-os.iso
+update
+speedtest
+update
+update
+update
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Downloads
+speedtest
+update
+update
+update
+reboot
+jctl
+cd .config/nvim
+v .
+sudo pacman -S scrcpy
+cd .config/zsh
+v zsh-aliases
+cd $HOME/.config/nvim
+git add .
+git commit -m "ups"
+aurlist
+paclist
+dots add -u
+dots commit -m "stuff"
+dots push origin main
+scrcpy --help
+adb tcpip 5555
+adb tcpip 5555
+scrcpy
+scrcpy
+cd .config/zsh
+v zsh-aliases
+paru -S qtscrcpy
+cd minigrep
+cargo run
+cargo run needle haystack
+cd minigrep
+la
+v poem.txt
+cargo run the poem.txt
+cargo run the poem.txt
+cargo test
+cargo test
+cargo test
+cargo run
+cargo run frog poem.txt
+cd Projects/rust_book
+la
+cargo new minigrep
+cd minigrep
+la
+cd ..
+rm -rf minigrep
+cargo new minigrep --vcs=none
+cd minigrep
+la
+v .
+v .
+cd ..
+git add .
+git commit -m "minigrep"
+git push origin main
+ cd /home/anjrv
+ clear
+tldr pkill
+update
+sudo pacman -S screenkey
+sudo pacman -Rns screenkey
+cd Documents
+la
+v .
+la
+v aurlist.txt
+curl 'https://vedur.is/#syn=athugun'
+curl 'https://vedur.is/athuganir/kort/faxafloi/'
+curl 'https://vedur.is/vedur/athuganir/kort/sudausturland/#group=18&station=6237'
+update
+cd Downloads
+ls
+qpdf ulle_framf_2021.pdf --pages . 1 -- ulle_framf_2021_half.pdf
+qpdf ulle_framf_2021_half.pdf ulle_framf_2022.pdf -- ulle_framf.pdf
+qpdf --empty --pages ulle_framf_2021_half.pdf ulle_framf_2022.pdf 1 -- ulle_framf.pdf
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Downloads
+qpdf --empty --pages ulle_sunni_1.pdf ulle_sunni_2.pdf 1 -- ulle_faeding.pdf
+qpdf --empty --pages ulle_sunni_1.pdf ulle_sunni_2.pdf 1 -- ulle_faeding.pdf
+qpdf --empty --pages ulle_sunni_1.pdf 1 ulle_sunni_2.pdf 1 -- ulle_faeding.pdf
+cd Downloads
+qpdf --empty --pages ulle_sunni_1.pdf 1 ulle_sunni_2.pdf 1 -- ulle_faeding.pdf
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Downloads
+ cd /home/anjrv
+ clear
+ cd /run/user/1000/kio-fuse-SDcfgL/smb/192.168.1.6/backup
+ cd /run/user/1000/kio-fuse-SDcfgL/smb/192.168.1.6/backup/ulle
+ cd /home/anjrv
+ clear
+ cd /run/user/1000/kio-fuse-SDcfgL/smb/192.168.1.6/backup
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Downloads
+ cd /home/anjrv
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Downloads
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Downloads
+update
+cd Projects
+la
+cd test
+la
+v SlidingCalculator.java
+v SlidingCalculator.java
+v SlidingCalculator.java
+v SlidingCalculator.java
+v SlidingCalculator.java
+cd .config/nvim
+v .
+git add .
+git commit -m "dapui"
+git push origin main
+cd Projects/rust_book
+la
+cd minigrep
+la
+v .
+cd Projects
+la
+cd hvassahraun
+la
+cd python
+la
+v import_prufa.py
+ps auxf | sort -nr -k 4 | head -5
+systemctl list-unit-files --state=enabled
+cd Projects
+la
+cd test
+la
+v SlidingCalculator.java
+cd Projects/test
+v SlidingCalculator.java
+v
+cd .config/nvim
+v .
+git add .
+git commit -m "no global bufferline close icon"
+git push origin main
+dots add -u
+dots commit -m "stuff"
+dots push origin main
+update
+cd Projects/hvassahraun/edr_subscriber
+v .
+cd Projects/hvassahraun/weather_test
+v .
+ cd /home/anjrv
+ clear
+ cd /run/user/1000/kio-fuse-PtULgB/remote
+ cd /run/user/1000/kio-fuse-PtULgB/smb/192.168.1.6/backup
+cd Projects/hvassahraun/edr_backend
+v .
+node app.js
+npm i xml2js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+npm i cheerio
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+npm i axios
+npm i axios
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+kaA
+npm install puppeteer
+cd Projects/hvassahraun/edr_subscriber
+la
+cd src
+la
+cat package.json
+cd ..
+la
+cat package.json
+cd ..
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm run
+npm run
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+git init
+git remote add origin git@github.com:anjrv/vedur.git
+git branch -M main
+la
+cd Projects/hvassahraun/edr_subscriber
+la
+v .gitignore
+cd Projects/hvassahraun/
+la
+mkdir vedur
+cd vedur
+npm init -y
+la
+v package.json
+v app.js
+la
+mkdir src
+mv app.js src
+mv browser.js src
+la
+v .
+la
+v .gitignore
+la
+rm XMLthjonusta.pdf
+la
+git add .
+git status
+git commit -m "station data scraper, location based filtering is TODO"
+git push origin main
+v package.json
+npm i
+npm start
+git add .
+git commit -m "removed some bloat"
+git push origin main
+git add .
+git commit -m "pin location to 5 sec to minimize accuracy impact"
+git push origin main
+cd Projects/hvassahraun/vedur
+v .
+cd ..
+npm start
+npm start
+npm start
+npm start
+git add .
+git commit -m "unshift to retain ascending ordering"
+git push origin main
+npm start
+git add .
+git commit -m "less confusing variable name..."
+git push origin main
+git push origin main
+npm start
+npm start
+git add .
+git commit -m "less confusing variable name..."
+git push origin main
+git add .
+git commit -m "less confusing variable name..."
+cd Projects/hvassahraun/vedur
+v .
+cd ..
+npm start
+npm start
+git add .
+git commit -m "do not always ask for 6 day"
+git push origin main
+update
+cd Projects/hvassahraun/vedur
+cd src
+la
+node app.js
+sudo pacman -S lldb
+cd Projects/rust_book
+la
+v minigrep
+v minigrep
+cd .config/nvim
+v .
+sudo pacman -S nodejs-gallium
+sudo pacman -S nodejs-lts-gallium
+cd Projects/hvassahraun/vedur
+npm start
+cd .config/nvim
+la
+v .
+cd .config/nvim
+v .
+cd Projects/hvassahraun/vedur
+v .
+v .
+cd .config/nvim
+git add .
+git commit -m "alright lets try this thing"
+git push origin main
+v .
+update
+ cd /home/anjrv
+ clear
+ cd /run/user/1000/kio-fuse-UTCZsG/smb/192.168.1.6/backup
+ cd /run/user/1000/kio-fuse-UTCZsG/smb/192.168.1.6/backup/ulle
+cd Downloads
+la
+ cd /home/anjrv/Downloads
+ clear
+ cd /home/anjrv/Projects
+ cd /home/anjrv/Projects/LV
+ cd /home/anjrv/Projects
+ cd /home/anjrv/Downloads
+ cd /home/anjrv
+ clear
+ cd /run/user/1000/kio-fuse-UTCZsG/smb/192.168.1.6/backup
+ cd /run/user/1000/kio-fuse-UTCZsG/smb/192.168.1.6/backup/ulle
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Downloads
+update
+ cd /home/anjrv
+ clear
+sudo updatedb
+locate respondingStations.json
+cd Projects/hvassahraun/
+ls
+cat respondingStations.json
+rm respondingStations.json
+cd Projects/hvassahraun/vedur
+la
+cd src
+la
+cd ..
+la
+cd Projects/hvassahraun/
+cd edr_frontend
+v .
+cd Projects/hvassahraun/vedur
+la
+v allStations.json
+cd Projects/hvassahraun/vedur
+la
+v respondingStations.json
+cd ..
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+ls
+npm start
+ls
+npm start
+ls
+cd src
+la
+npm start
+cd ..
+npm start
+ls
+npm start
+npm start
+npm start
+ls
+npm start
+ls
+npm start
+npm start
+ls
+cd src
+la
+cd ..
+npm start
+ls
+cat respondingStations.json
+rm respondingStations.json
+npm start
+npm start
+npm start
+git add .
+git commit -m "filtered non responding stations, can automatically query nearest station id"
+git push origin main
+cd Projects/hvassahraun/vedur
+v .
+la
+mkdir data
+mv allStations.json data
+mv respondingStations.json data
+la
+ls data
+v ./
+v .
+cd ..
+npm start
+git add .
+git commit -m "some refactor"
+git push origin main
+git add .
+git commit -m "some refactor"
+git push origin main
+cd Projects/hvassahraun/vedur
+la
+v .
+cd ..
+git add .
+git commit -m "some hover docs"
+git push origin main
+cd ..
+npm start
+cd Projects/hvassahraun/vedur
+la
+v .
+cd Projects/hvassahraun/vedur
+v .
+update
+cd .config/nvim
+v .
+cd Projects/hvassahraun/vedur
+v .
+cd Projects/hvassahraun/edr_frontend
+v .
+npm start
+git add .
+git commit -m "some styling, show highest edr marker on buttons"
+git push origin main
+git push origin --force
+git status
+ssh-hv-local
+update
+cd Projects/hvassahraun/vedur
+v .
+cd ..
+npm start
+npm start
+npm start
+npm start
+npm start
+git add .
+git commit -m "eh.."
+git push origin main
+cd Projects/hvassahraun/vedur
+v .
+cd Projects/hvassahraun/vedur
+la
+la
+cd .config/kitty
+la
+v kitty.conf
+cd Projects/hvassahraun/vedur
+ls
+v .
+v .
+v .
+v .
+v .
+v .
+v .
+v .
+v .
+v .
+v .
+v .
+v .
+v .
+v .
+v .
+v .
+v .
+v .
+v .
+v .
+v .
+v .
+v .
+v .
+v .
+v .
+v .
+v .
+v .
+v .
+v .
+v .
+v .
+v .
+v .
+v .
+v .
+v .
+v .
+v .
+v .
+v .
+v .
+v .
+v .
+v .
+v .
+v .
+v .
+v .
+cd .config/kitty
+v kitty.conf
+cd .config/nvim
+v .
+git add .
+git commit -m "lualine stuff"
+git push origin main
+cd Projects/hvassahraun/vedur
+v .
+v .
+v .
+v .
+update
+cd Downloads
+v stack.md
+dolphin .
+update
+v
+ls
+v tst
+npm i babel-plugin-macros
+npm audit fix
+npm start
+npm i
+npm i
+npm start
+npm i --save @fortawesome/fontawesome-svg-core
+npm install --save @fortawesome/free-solid-svg-icons
+npm start
+npm install --save @fortawesome/react-fontawesome
+npm start
+npm i react-router-dom
+git add .
+git commit -m "buttons"
+git push origin main
+npm start
+npm start
+git add .
+git commit -m "refactored to add router, bunch todo"
+git push origin main
+ssh-hv-local
+cd Projects/hvassahraun/edr_frontend
+v .
+la
+cd src
+la
+mkdir pages
+cd ..
+la
+la
+cd src
+la
+mv App.js pages
+cd pages
+la
+mv App.js Data.js
+la
+v Data.js
+la
+cd ..
+mkdir components
+la
+mv navbar.js components
+la
+v .
+la
+mkdir components
+mv Nav.js components
+la
+cd pages
+la
+cd ..
+la
+v .
+npm start
+git add .
+git commit -m "some css fix"
+git push origin main
+update
+systemctl status mongodb
+killall nodejs
+killall node
+killall mosquitto
+mosquitto -v -c mosquitto.conf
+mosquitto
+cd Projects/hvassahraun/edr_backend
+npm run dev
+cd Projects/hvassahraun/edr_frontend
+v .
+npm start
+npm start
+npm start
+npm start
+git add .
+git commit -m "something something map"
+git push origin main
+ssh-hv-local
+systemctl status sshd
+sudo pacman -S plasma-discover-backend-flatpak
+sudo pacman -S notion
+ cd /home/anjrv/Downloads
+ clear
+checkupdates
+notion
+sudo pacman -Rns notion
+flatpak install notion
+cd Projects/hvassahraun/edr_frontend
+v .
+cd .config/nvim
+v .
+cd Projects/hvassahraun/edr_frontend
+v .
+cd .config/nvim
+la
+v .
+v .
+cd .config/kitty
+v kitty.conf
+v kitty.conf
+v kitty.conf
+cd Projects/hvassahraun/edr_frontend
+la
+v .
+npm start
+npm start
+git add .
+git commit -m "something something map"
+git push origin main
+vkcube
+ssh-hv-local
+cd Projects/hvassahraun/edr_frontend
+npm start
+nvm-init
+nvm ls
+nvm use --delete-prefix v18.2.0 --silent
+nvm ls
+nvm-init
+nvm ls
+node --version
+cd Projects/hvassahraun/edr_frontend
+v .
+lldb
+where firefox
+sudo pacman -S debugpy
+pip install --user debugpy
+where debugpy
+debugpy
+locate debugpy
+cd /usr/lib/python3.10/site-packages/debugpy
+ls
+cd Projects/tests
+cd Projects/test
+la
+v Test.js
+sudo pacman -S node-debug2
+cd .config/nvim
+la
+git clone https://github.com/microsoft/vscode-node-debug2.git
+ls
+cd vscode-node-debug2
+la
+npm i
+NODE_OPTIONS=--no-experimental-fetch npm run build
+cd ..
+la
+cd .config/nvim
+la
+git clone https://github.com/firefox-devtools/vscode-firefox-debug.git
+cd vscode-firefox-debug
+npm i
+npm run build
+ls
+ls dist
+pwd
+ls
+cd Projects
+la
+cd test
+la
+v Test.js
+v Test.js
+la
+rm Test.js
+la
+cd .
+la
+cd ..
+la
+v TOL607
+la
+cd rust_book
+la
+v backyard
+cd .config/nvim
+v .
+git add .
+git commit -m "bunch of dap, a space"
+git push origin main
+where lldb-vscode
+killall node
+top
+cd Projects
+la
+cd test
+la
+v Test.js
+la
+rm Test.js
+la
+cd ..
+la
+cd hvassahraun
+la
+cd vedur
+la
+v .
+cd .config/nvim
+v .
+update
+cd .config/zsh
+v .zshrc
+v zsh-aliases
+kitty +kitten ssh edr@31.209.145.132\
+
+update
+killall easyeffects
+killall easyeffects
+reboot
+git pull origin main
+killall easyeffects
+cd Projects/hvassahraun/vedur
+v .
+cd Projects/hvassahraun/vedur
+v .
+sudo pacman -S libreoffice-fresh
+cd Projects/hvassahraun/edr_frontend
+npm start
+v .
+npm start
+git add .
+git commit -m "just make it 50%"
+git push origin main
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Downloads
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Downloads
+ cd /home/anjrv
+ cd /home/anjrv/Projects
+ cd /home/anjrv/Projects/hvassahraun
+ cd /home/anjrv/Projects/hvassahraun/edr_stats
+ssh-hv-local
+cd Projects/skalholt/backend
+v .
+cd ..
+la
+cd ..
+la
+cd hvassahraun
+la
+v edr_backend
+cd Projects/skalholt/backend
+la
+cd src
+la
+v setup.js
+cd Projects/skalholt/backend
+v .
+cd Projects/hvassahraun/edr_backend
+v .
+cd ..
+la
+git stash
+git pull origin main
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm run stations
+npm run stations
+npm run stations
+npm run search
+npm run search --listen
+npm run search --listen=true
+npm run search --listen
+npm run search
+npm run search --listen
+npm run search --listen
+npm run search a b c d
+cd Projects/hvassahraun/edr_backend
+cd Projects/hvassahraun/vedur
+la
+cat package.json
+cd Projects/hvassahraun/vedur
+la
+la
+la
+v .
+v .
+cd ..
+npm run search 64.0212 -22.1503
+npm run search 64.0212 -22.1503
+npm run search 64.0212 -22.1503
+npm run search 64.0212 -22.1503
+npm run search a b c d
+npm run search 64.0212 -22.1503
+npm run search 64.0212 -22.1503
+npm run search 64.0212  -22.1503
+npm run search 64.0212 a -22.1503
+npm run search -- 64.0212 -22.1503
+npm run search -- 64.0212 -22.1503
+npm run search -- 64.0212 -22.1503
+npm run search -- 64.0212 -22.1503
+npm run search -- 64.0212 -22.1503
+npm run search -- 64.0212 -22.1503 2022/07/19
+npm run search -- 64.0212 -22.1503 2022/07/19
+npm run search -- 64.0212 -22.1503 2022/07/21
+npm run search -- 64.0212 -22.1503 2022/07/21
+npm run search -- 64.0212 -22.1503 2022/07/21
+npm run search -- 64.0212 -22.1503 2022/07/21 2
+git add .
+git commit -m "command line function, arg validation, station regeneration helper"
+git push origin main
+npm run search -- 64.0212 -22.1503
+git add .
+git commit -m "command line function, arg validation, station regeneration helper"
+git push origin main
+git add .
+git commit -m "command line function, arg validation, station regeneration helper"
+git push origin main
+cd Projects/hvassahraun/vedur
+v .
+update
+ssh-hv-local
+npm --prefix $HOME/Projects/hvassahraun/vedur run search
+cd Projects/hvassahraun/vedur
+v .
+cd .config/nvim
+la
+v .
+cd Projects/hvassahraun/edr_frontend
+npm start
+ssh-hv-local
+ssh-hv-local
+cd Projects/hvassahraun/edr_frontend
+npm start
+cd Projects/hvassahraun/edr_frontend
+npm start
+ssh-hv-local
+cd Projects/hvassahraun/edr_backend
+v .
+cd ..
+v edr_subscriber
+cd ..
+git add .
+git commit -m "stormglass is big nope"
+git push origin main
+xrandr --current
+v /etc/resolv.conf
+cat /etc/pacman.conf
+ls
+systemctl status networkmanager
+systemctl status NetworkManager
+cd Documents
+cat paclist.txt
+v paclist.txt
+ cd /home/anjrv
+ clear
+ cd /home/anjrv/Pictures
+cd Documents
+cat aurlist.txt
+npm start
+ssh-hv-local
+cd Projects/hvassahraun/edr_frontend
+v .
+cd ..
+cd vedur
+v .
+npm run search -- 64.0212 -22.1503\
+
+npm run search -- 64.0212 -22.1503 2022/07/21\
+
+npm run search -- 64.0212 -22.1503 2022/07/21 2\
+
+npm run search -- 64.0212 -22.1503 2022/07/21 3\
+
+ssh-hv-local
+update

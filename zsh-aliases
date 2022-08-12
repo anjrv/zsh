@@ -40,9 +40,9 @@ alias gcm="git commit -m"
 
 #pacman related
 alias mirror="sudo reflector -f 10 -l 300 --threads 300 --sort rate -p https --verbose --save /etc/pacman.d/mirrorlist"
-alias mirrord="sudo reflector --latest 300 --number 20 --sort delay --save /etc/pacman.d/mirrorlist"
-alias mirrors="sudo reflector --latest 300 --number 20 --sort score --save /etc/pacman.d/mirrorlist"
-alias mirrora="sudo reflector --latest 300 --number 20 --sort age --save /etc/pacman.d/mirrorlist"
+alias mirrord="sudo reflector -f 10 -l 300 --threads 300 --sort delay -p https --verbose --save /etc/pacman.d/mirrorlist"
+alias mirrors="sudo reflector -f 10 -l 300 --threads 300 --sort score -p https --verbose --save /etc/pacman.d/mirrorlist"
+alias mirrora="sudo reflector -f 10 -l 300 --threads 300 --sort age -p https --verbose --save /etc/pacman.d/mirrorlist"
 alias orphans="pacman -Qdt"
 alias cleanup="sudo pacman -Rns $(pacman -Qtdq)"
 alias archlinx-fix-keys="sudo pacman-key --init && sudo pacman-key --populate archlinux && sudo pacman-key --refresh-keys"

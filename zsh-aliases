@@ -3,6 +3,7 @@ alias mv="mv -i"
 alias rm="rm -i"
 alias df="df -h"
 alias free="free -m"
+alias sd="shutdown -h now"
 
 alias ..="cd .."
 alias ..2="cd ../.."

@@ -67,4 +67,4 @@ alias rsync-hv-local="rsync -avzhe ssh edr@192.168.1.13:"
 
 # This thing is absurdly slow, only source when needed
 alias nvm-init="compinit && source "/usr/share/nvm/init-nvm.sh"" # Doesn't wait for lazy load compinit but requires it
-alias conda-init="source "/home/anjrv/.local/share/anaconda3/conda-setup""
+alias conda-init="source "$HOME/.local/share/anaconda3/conda-setup""

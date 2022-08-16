@@ -23,7 +23,7 @@ alias update="paru && flatpak update"
 alias ytd="youtube-dl"
 alias pg="pgcli --less-chatty"
 alias update-fc="sudo fc-cache -fv"
-alias chrome-unsafe="google-chrome-stable --disable-web-security --user-data-dir="$HOME/Projects/chrome_trash""
+alias chrome-unsafe="google-chrome-stable --disable-web-security --user-data-dir='$HOME/Projects/chrome_trash'"
 alias firmware="sudo systemctl reboot --firmware-setup"
 alias zsh-update-plugins="find "$ZDOTDIR/plugins" -type d -exec test -e '{}/.git' ';' -print0 | xargs -I {} -0 git -C {} pull -q"
 alias npm-fix-conflicts="sudo pacman -S npm --overwrite '/usr/lib/node_modules/npm/*'"
@@ -44,7 +44,6 @@ alias mirrord="sudo reflector -f 10 -l 300 --threads 300 --sort delay -p https -
 alias mirrors="sudo reflector -f 10 -l 300 --threads 300 --sort score -p https --verbose --save /etc/pacman.d/mirrorlist"
 alias mirrora="sudo reflector -f 10 -l 300 --threads 300 --sort age -p https --verbose --save /etc/pacman.d/mirrorlist"
 alias orphans="pacman -Qdt"
-alias cleanup="sudo pacman -Rns $(pacman -Qtdq)"
 alias archlinx-fix-keys="sudo pacman-key --init && sudo pacman-key --populate archlinux && sudo pacman-key --refresh-keys"
 
 #debugging

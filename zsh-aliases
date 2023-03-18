@@ -28,7 +28,7 @@ alias firmware="sudo systemctl reboot --firmware-setup"
 alias zsh-update-plugins="find "$ZDOTDIR/plugins" -type d -exec test -e '{}/.git' ';' -print0 | xargs -I {} -0 git -C {} pull -q"
 alias npm-fix-conflicts="sudo pacman -S npm --overwrite '/usr/lib/node_modules/npm/*'"
 
-alias kde-reload="kquitapp5 plasmashell && kstart5 plasmashell"
+alias kde-reload="nohup plasmashell --replace &"
 alias kde-fix-icons="kbuildsycoca5 --noincremental"
 
 #git
